@@ -29,7 +29,7 @@ if (propFile.canRead())
 }
 
 
-version='1.4.8-STABLE'
+version='1.4.9-STABLE'
 group='com.distrimind.upnp'
 
 
