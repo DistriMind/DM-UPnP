@@ -1,0 +1,43 @@
+apply from: ("../common.gradle")
+group='com.distrimind.upnp.android'
+
+
+dependencies {
+
+    api project(':DM-UPnP-Common')
+    implementation jlibs.dm.flexi.logxml.android
+    compileOnly jlibs.androidStub
+
+    compileOnly jlibs.undertow.core
+    compileOnly jlibs.undertow.servlet
+
+
+    testImplementation jlibs.jsoup
+    testImplementation jlibs.testng
+    testImplementation jlibs.logback.classic
+    testImplementation jlibs.undertow.servlet
+    testImplementation jlibs.dm.flexi.logxml.desktop
+    try {
+        testImplementation project(':DM-UPnP-Desktop')
+    }
+    catch(Exception ignored)
+    {
+        println("Dependency DM-UPnP-Desktop not found. Its a normal behaviour under Android")
+    }
+}
+
+jar.archiveBaseName = "DM-UPnP-Android"
+
+test {
+    systemProperty 'logback.configurationFile', file('src/test/resources/logback.xml').absolutePath
+    // enable TestNG support (default is JUnit)
+    useTestNG
+            {
+                suites 'src/test/resources/com/distrimind/upnp/android/AllTestsNG.xml'
+            }
+
+    // set heap size for the test JVM(s)
+    minHeapSize = "1m"
+    maxHeapSize = "6g"
+
+}

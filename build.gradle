@@ -29,7 +29,7 @@ if (propFile.canRead())
 }
 
 
-version='1.4.7-STABLE'
+version='1.4.8-STABLE'
 group='com.distrimind.upnp'
 
 
@@ -145,8 +145,8 @@ subprojects {
                 artifact javadocJar
                 pom {
                     name = project.name
-                    description = 'UPnP IGD stack for Java and Android'
-                    url = 'https://github.com/JasonMahdjoub/UPnPIGD'
+                    description = 'DM-UPnP stack for Java and Android'
+                    url = 'https://github.com/JasonMahdjoub/DM-UPnP'
                     developers {
                         developer {
                             id = 'cb'
@@ -168,10 +168,10 @@ subprojects {
                     }
                     issueManagement {
                         system = 'GitHub'
-                        url = 'https://github.com/JasonMahdjoub/UPnPIGD/issues'
+                        url = 'https://github.com/JasonMahdjoub/DM-UPnP/issues'
                     }
                     scm {
-                        connection = 'https://github.com/JasonMahdjoub/UPnPIGD'
+                        connection = 'https://github.com/JasonMahdjoub/DM-UPnP'
                         developerConnection = connection
                         url = connection
                     }

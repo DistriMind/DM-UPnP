@@ -21,8 +21,8 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = 'UPnPIGD'
-include 'UPnPIGD-Common'
-include 'UPnPIGD-Android'
-include 'UPnPIGD-Desktop'
+rootProject.name = 'DM-UPnP'
+include 'DM-UPnP-Common'
+include 'DM-UPnP-Android'
+include 'DM-UPnP-Desktop'
 

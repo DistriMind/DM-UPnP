@@ -61,7 +61,7 @@ public class AllTestsForAndroidEmulator extends com.distrimind.upnp.test.AllTest
 
     public static void main(String[] args) throws IOException {
         Tests t=getTests();
-        File f=new File("UPnPIGD-Android/src/test/resources/com/distrimind/upnp/android/AllTestsNG.xml");
+        File f=new File("DM-UPnP-Android/src/test/resources/com/distrimind/upnp/android/AllTestsNG.xml");
         t.saveTestNGToXML(f);
         FlexiLogXML.log(Level.INFO, "XML Test NG file saved into: "+f.getCanonicalPath());
     }

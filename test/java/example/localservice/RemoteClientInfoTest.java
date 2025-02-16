@@ -44,12 +44,12 @@ import static org.testng.Assert.assertNull;
  * <p>
  * Theoretically, your service implementation should work with any client, as UPnP is
  * supposed to provide a compatibility layer. In practice, this never works as no
- * UPnP client and server is fully compatible with the specifications (except UPnPIGD, of
+ * UPnP client and server is fully compatible with the specifications (except DM-UPnP, of
  * course).
  * </p>
  * <p>
  * If your action method has a last (or only parameter) of type <code>RemoteClientInfo</code>,
- * UPnPIGD will provide details about the control point calling your service:
+ * DM-UPnP will provide details about the control point calling your service:
  * </p>
  * <a class="citation" href="javacode://example.localservice.SwitchPowerWithClientInfo" style="include:CLIENT_INFO"/>
  * <p>
@@ -59,7 +59,7 @@ import static org.testng.Assert.assertNull;
  * argument will be <code>null</code>.
  * </p>
  * <p>
- * A client's remote and local address might be <code>null</code> if the UPnPIGD
+ * A client's remote and local address might be <code>null</code> if the DM-UPnP
  * transport layer was not able to obtain the connection's address.
  * </p>
  * <p>

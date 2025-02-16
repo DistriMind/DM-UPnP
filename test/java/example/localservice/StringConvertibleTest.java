@@ -42,7 +42,7 @@ import static org.testng.Assert.assertNull;
  * <a class="citation" href="javacode://example.localservice.MyServiceWithStringConvertibles" style="include: INC1"/>
  * <p>
  * The state variables are all of UPnP datatype <code>string</code> because
- * UPnPIGD knows that the Java type of the annotated field is "string convertible".
+ * DM-UPnP knows that the Java type of the annotated field is "string convertible".
  * This is always the case for <code>java.net.URI</code> and <code>java.net.URL</code>.
  * </p>
  * <p>
@@ -56,7 +56,7 @@ import static org.testng.Assert.assertNull;
  * The <code>List&lt;Integer></code> is the collection you'd use in your service
  * implementation to group several numbers. Let's assume that for UPnP communication
  * you need a comma-separated representation of the individual values in a string,
- * as is required by many of the UPnP A/V specifications. First, tell UPnPIGD that
+ * as is required by many of the UPnP A/V specifications. First, tell DM-UPnP that
  * the state variable really is a string datatype, it can't infer that
  * from the field type. Then, if an action has this output argument, instead of
  * manually creating the comma-separated string you pick the appropriate converter

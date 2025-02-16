@@ -1,0 +1,10 @@
+apply from: ("../common.gradle")
+group='com.distrimind.upnp'
+
+dependencies {
+    implementation jlibs.dm.flexi.logxml.common
+    implementation jlibs.jsoup
+    compileOnly jlibs.jakarta.enterprise.cdi.api
+}
+
+jar.archiveBaseName = "DM-UPnP-Core"
