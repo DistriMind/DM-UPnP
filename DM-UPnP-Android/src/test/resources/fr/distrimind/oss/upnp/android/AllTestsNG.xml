@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="24" name="Default Suite">
+  <test thread-count="24" name="TestStreamServerClient">
+    <classes>
+      <class name="fr.distrimind.oss.upnp.android.transport.JDKServerJDKClientTest"/>
+      <class name="fr.distrimind.oss.upnp.android.transport.UndertowServerUndertowClientTest"/>
+      <class name="fr.distrimind.oss.upnp.android.transport.UndertowServerJDKClientTest"/>
+      <class name="fr.distrimind.oss.upnp.android.transport.JDKServerUndertowClientTest"/>
+    </classes>
+  </test> <!-- TestStreamServerClient -->
+</suite> <!-- Default Suite -->
+

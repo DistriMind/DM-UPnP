@@ -15,14 +15,14 @@
 
 package example.localservice;
 
-import com.distrimind.upnp.binding.AllowedValueRangeProvider;
-import com.distrimind.upnp.binding.annotations.UpnpAction;
-import com.distrimind.upnp.binding.annotations.UpnpInputArgument;
-import com.distrimind.upnp.binding.annotations.UpnpOutputArgument;
-import com.distrimind.upnp.binding.annotations.UpnpService;
-import com.distrimind.upnp.binding.annotations.UpnpServiceId;
-import com.distrimind.upnp.binding.annotations.UpnpServiceType;
-import com.distrimind.upnp.binding.annotations.UpnpStateVariable;
+import fr.distrimind.oss.upnp.binding.AllowedValueRangeProvider;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpAction;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpInputArgument;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpOutputArgument;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpService;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpServiceId;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpServiceType;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpStateVariable;
 
 @UpnpService(
         serviceId = @UpnpServiceId("MyService"),

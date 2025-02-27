@@ -14,27 +14,27 @@
  */
 package example.controlpoint;
 
-import com.distrimind.upnp.test.gena.OutgoingSubscriptionLifecycleTest;
+import fr.distrimind.oss.upnp.test.gena.OutgoingSubscriptionLifecycleTest;
 import example.binarylight.BinaryLightSampleData;
 import example.binarylight.SwitchPower;
-import com.distrimind.upnp.controlpoint.SubscriptionCallback;
-import com.distrimind.upnp.mock.MockRouter;
-import com.distrimind.upnp.mock.MockUpnpService;
-import com.distrimind.upnp.model.UnsupportedDataException;
-import com.distrimind.upnp.model.gena.CancelReason;
-import com.distrimind.upnp.model.gena.GENASubscription;
-import com.distrimind.upnp.model.gena.RemoteGENASubscription;
-import com.distrimind.upnp.model.message.StreamResponseMessage;
-import com.distrimind.upnp.model.message.UpnpResponse;
-import com.distrimind.upnp.model.message.header.SubscriptionIdHeader;
-import com.distrimind.upnp.model.message.header.TimeoutHeader;
-import com.distrimind.upnp.model.message.header.UpnpHeader;
-import com.distrimind.upnp.model.meta.LocalDevice;
-import com.distrimind.upnp.model.meta.LocalService;
-import com.distrimind.upnp.model.state.StateVariableValue;
-import com.distrimind.upnp.model.types.BooleanDatatype;
-import com.distrimind.upnp.model.types.Datatype;
-import com.distrimind.upnp.util.Reflections;
+import fr.distrimind.oss.upnp.controlpoint.SubscriptionCallback;
+import fr.distrimind.oss.upnp.mock.MockRouter;
+import fr.distrimind.oss.upnp.mock.MockUpnpService;
+import fr.distrimind.oss.upnp.model.UnsupportedDataException;
+import fr.distrimind.oss.upnp.model.gena.CancelReason;
+import fr.distrimind.oss.upnp.model.gena.GENASubscription;
+import fr.distrimind.oss.upnp.model.gena.RemoteGENASubscription;
+import fr.distrimind.oss.upnp.model.message.StreamResponseMessage;
+import fr.distrimind.oss.upnp.model.message.UpnpResponse;
+import fr.distrimind.oss.upnp.model.message.header.SubscriptionIdHeader;
+import fr.distrimind.oss.upnp.model.message.header.TimeoutHeader;
+import fr.distrimind.oss.upnp.model.message.header.UpnpHeader;
+import fr.distrimind.oss.upnp.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.model.meta.LocalService;
+import fr.distrimind.oss.upnp.model.state.StateVariableValue;
+import fr.distrimind.oss.upnp.model.types.BooleanDatatype;
+import fr.distrimind.oss.upnp.model.types.Datatype;
+import fr.distrimind.oss.upnp.util.Reflections;
 import org.testng.annotations.Test;
 
 import java.io.IOException;

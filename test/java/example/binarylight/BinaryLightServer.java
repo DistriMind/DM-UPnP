@@ -1,16 +1,16 @@
 package example.binarylight;
 
-import com.distrimind.flexilogxml.concurrent.ThreadType;
-import com.distrimind.upnp.binding.LocalServiceBindingException;
-import com.distrimind.upnp.binding.annotations.AnnotationLocalServiceBinder;
-import com.distrimind.upnp.model.DefaultServiceManager;
-import com.distrimind.upnp.model.ValidationException;
-import com.distrimind.upnp.model.meta.*;
-import com.distrimind.upnp.model.types.DeviceType;
-import com.distrimind.upnp.model.types.UDADeviceType;
-import com.distrimind.upnp.model.types.UDN;
-import com.distrimind.upnp.UpnpService;
-import com.distrimind.upnp.UpnpServiceImpl;
+import fr.distrimind.oss.flexilogxml.concurrent.ThreadType;
+import fr.distrimind.oss.upnp.binding.LocalServiceBindingException;
+import fr.distrimind.oss.upnp.binding.annotations.AnnotationLocalServiceBinder;
+import fr.distrimind.oss.upnp.model.DefaultServiceManager;
+import fr.distrimind.oss.upnp.model.ValidationException;
+import fr.distrimind.oss.upnp.model.meta.*;
+import fr.distrimind.oss.upnp.model.types.DeviceType;
+import fr.distrimind.oss.upnp.model.types.UDADeviceType;
+import fr.distrimind.oss.upnp.model.types.UDN;
+import fr.distrimind.oss.upnp.UpnpService;
+import fr.distrimind.oss.upnp.UpnpServiceImpl;
 
 import java.io.IOException;
 

@@ -1,6 +1,6 @@
 package example.binarylight;
 
-import com.distrimind.upnp.binding.annotations.*;
+import fr.distrimind.oss.upnp.binding.annotations.*;
 
 @UpnpService(
         serviceId = @UpnpServiceId("SwitchPower"),

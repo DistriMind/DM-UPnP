@@ -18,7 +18,7 @@ module DM_UPnP_Desktop {
 	requires FlexiLogXML_Desktop;
 	requires FlexiLogXML_Common;
 	requires static jdk.httpserver;
-	exports com.distrimind.upnp.desktop.platform;
-	exports com.distrimind.upnp.desktop.transport.impl;
+	exports fr.distrimind.oss.upnp.desktop.platform;
+	exports fr.distrimind.oss.upnp.desktop.transport.impl;
 }
 

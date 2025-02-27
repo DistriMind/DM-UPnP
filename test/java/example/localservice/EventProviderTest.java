@@ -14,20 +14,20 @@
  */
 package example.localservice;
 
-import com.distrimind.upnp.test.gena.OutgoingSubscriptionLifecycleTest;
+import fr.distrimind.oss.upnp.test.gena.OutgoingSubscriptionLifecycleTest;
 import example.binarylight.BinaryLightSampleData;
 import example.controlpoint.EventSubscriptionTest;
-import com.distrimind.upnp.controlpoint.SubscriptionCallback;
-import com.distrimind.upnp.mock.MockRouter;
-import com.distrimind.upnp.mock.MockUpnpService;
-import com.distrimind.upnp.model.gena.CancelReason;
-import com.distrimind.upnp.model.gena.GENASubscription;
-import com.distrimind.upnp.model.message.StreamResponseMessage;
-import com.distrimind.upnp.model.message.UpnpResponse;
-import com.distrimind.upnp.model.meta.LocalDevice;
-import com.distrimind.upnp.model.meta.LocalService;
-import com.distrimind.upnp.test.data.SampleData;
-import com.distrimind.upnp.util.Reflections;
+import fr.distrimind.oss.upnp.controlpoint.SubscriptionCallback;
+import fr.distrimind.oss.upnp.mock.MockRouter;
+import fr.distrimind.oss.upnp.mock.MockUpnpService;
+import fr.distrimind.oss.upnp.model.gena.CancelReason;
+import fr.distrimind.oss.upnp.model.gena.GENASubscription;
+import fr.distrimind.oss.upnp.model.message.StreamResponseMessage;
+import fr.distrimind.oss.upnp.model.message.UpnpResponse;
+import fr.distrimind.oss.upnp.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.model.meta.LocalService;
+import fr.distrimind.oss.upnp.test.data.SampleData;
+import fr.distrimind.oss.upnp.util.Reflections;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;

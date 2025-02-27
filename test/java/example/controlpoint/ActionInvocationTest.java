@@ -14,27 +14,27 @@
  */
 package example.controlpoint;
 
-import com.distrimind.upnp.test.local.LocalActionInvocationEnumTest;
-import com.distrimind.upnp.test.model.IconTest;
+import fr.distrimind.oss.upnp.test.local.LocalActionInvocationEnumTest;
+import fr.distrimind.oss.upnp.test.model.IconTest;
 import example.binarylight.BinaryLightSampleData;
-import com.distrimind.upnp.binding.annotations.AnnotationLocalServiceBinder;
-import com.distrimind.upnp.binding.annotations.UpnpAction;
-import com.distrimind.upnp.binding.annotations.UpnpInputArgument;
-import com.distrimind.upnp.binding.annotations.UpnpOutputArgument;
-import com.distrimind.upnp.binding.annotations.UpnpStateVariable;
-import com.distrimind.upnp.controlpoint.ActionCallback;
-import com.distrimind.upnp.mock.MockUpnpService;
-import com.distrimind.upnp.model.DefaultServiceManager;
-import com.distrimind.upnp.model.action.ActionArgumentValue;
-import com.distrimind.upnp.model.action.ActionInvocation;
-import com.distrimind.upnp.model.message.UpnpResponse;
-import com.distrimind.upnp.model.meta.Action;
-import com.distrimind.upnp.model.meta.LocalDevice;
-import com.distrimind.upnp.model.meta.LocalService;
-import com.distrimind.upnp.model.types.BooleanDatatype;
-import com.distrimind.upnp.model.types.Datatype;
-import com.distrimind.upnp.model.types.UDAServiceId;
-import com.distrimind.upnp.model.types.UDAServiceType;
+import fr.distrimind.oss.upnp.binding.annotations.AnnotationLocalServiceBinder;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpAction;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpInputArgument;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpOutputArgument;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpStateVariable;
+import fr.distrimind.oss.upnp.controlpoint.ActionCallback;
+import fr.distrimind.oss.upnp.mock.MockUpnpService;
+import fr.distrimind.oss.upnp.model.DefaultServiceManager;
+import fr.distrimind.oss.upnp.model.action.ActionArgumentValue;
+import fr.distrimind.oss.upnp.model.action.ActionInvocation;
+import fr.distrimind.oss.upnp.model.message.UpnpResponse;
+import fr.distrimind.oss.upnp.model.meta.Action;
+import fr.distrimind.oss.upnp.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.model.meta.LocalService;
+import fr.distrimind.oss.upnp.model.types.BooleanDatatype;
+import fr.distrimind.oss.upnp.model.types.Datatype;
+import fr.distrimind.oss.upnp.model.types.UDAServiceId;
+import fr.distrimind.oss.upnp.model.types.UDAServiceType;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

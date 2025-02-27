@@ -14,14 +14,14 @@
  */
 package example.controlpoint;
 
-import com.distrimind.upnp.binding.annotations.UpnpAction;
-import com.distrimind.upnp.binding.annotations.UpnpInputArgument;
-import com.distrimind.upnp.binding.annotations.UpnpOutputArgument;
-import com.distrimind.upnp.binding.annotations.UpnpService;
-import com.distrimind.upnp.binding.annotations.UpnpServiceId;
-import com.distrimind.upnp.binding.annotations.UpnpServiceType;
-import com.distrimind.upnp.binding.annotations.UpnpStateVariable;
-import com.distrimind.upnp.model.profile.RemoteClientInfo;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpAction;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpInputArgument;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpOutputArgument;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpService;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpServiceId;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpServiceType;
+import fr.distrimind.oss.upnp.binding.annotations.UpnpStateVariable;
+import fr.distrimind.oss.upnp.model.profile.RemoteClientInfo;
 
 /**
  * Reacting to cancellation on the server
@@ -81,19 +81,19 @@ import com.distrimind.upnp.model.profile.RemoteClientInfo;
  * <tbody>
  * <tr>
  * <td class="nowrap">
- * <code>com.distrimind.upnp.transport.impl.StreamClientImpl (default)</code>
+ * <code>fr.distrimind.oss.upnp.transport.impl.StreamClientImpl (default)</code>
  * </td>
  * <td>NO</td>
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>com.distrimind.upnp.transport.impl.apache.StreamClientImpl</code>
+ * <code>fr.distrimind.oss.upnp.transport.impl.apache.StreamClientImpl</code>
  * </td>
  * <td>YES</td>
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>com.distrimind.upnp.transport.impl.jetty.StreamClientImpl (default on Android)</code>
+ * <code>fr.distrimind.oss.upnp.transport.impl.jetty.StreamClientImpl (default on Android)</code>
  * </td>
  * <td>YES</td>
  * </tr>
@@ -114,20 +114,20 @@ import com.distrimind.upnp.model.profile.RemoteClientInfo;
  * <tbody>
  * <tr>
  * <td class="nowrap">
- * <code>com.distrimind.upnp.desktop.transport.impl.StreamServerImpl (default)</code>
+ * <code>fr.distrimind.oss.upnp.desktop.transport.impl.StreamServerImpl (default)</code>
  * </td>
  * <td>NO</td>
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>com.distrimind.upnp.transport.impl.apache.StreamServerImpl</code>
+ * <code>fr.distrimind.oss.upnp.transport.impl.apache.StreamServerImpl</code>
  * </td>
  * <td>YES</td>
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>com.distrimind.upnp.android.transport.impl.AsyncServletStreamServerImpl</code><br/>
- * with <code>com.distrimind.upnp.android.transport.impl.jetty.JettyServletContainer (default on Android)</code>
+ * <code>fr.distrimind.oss.upnp.android.transport.impl.AsyncServletStreamServerImpl</code><br/>
+ * with <code>fr.distrimind.oss.upnp.android.transport.impl.jetty.JettyServletContainer (default on Android)</code>
  * </td>
  * <td>YES</td>
  * </tr>

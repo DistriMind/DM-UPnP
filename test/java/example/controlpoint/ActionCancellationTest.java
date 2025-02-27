@@ -15,18 +15,18 @@
 package example.controlpoint;
 
 import example.binarylight.BinaryLightSampleData;
-import com.distrimind.upnp.binding.LocalServiceBinder;
-import com.distrimind.upnp.binding.annotations.AnnotationLocalServiceBinder;
-import com.distrimind.upnp.controlpoint.ActionCallback;
-import com.distrimind.upnp.mock.MockUpnpService;
-import com.distrimind.upnp.model.DefaultServiceManager;
-import com.distrimind.upnp.model.action.ActionCancelledException;
-import com.distrimind.upnp.model.action.ActionInvocation;
-import com.distrimind.upnp.model.message.UpnpResponse;
-import com.distrimind.upnp.model.meta.Action;
-import com.distrimind.upnp.model.meta.LocalDevice;
-import com.distrimind.upnp.model.meta.LocalService;
-import com.distrimind.upnp.model.types.UDAServiceId;
+import fr.distrimind.oss.upnp.binding.LocalServiceBinder;
+import fr.distrimind.oss.upnp.binding.annotations.AnnotationLocalServiceBinder;
+import fr.distrimind.oss.upnp.controlpoint.ActionCallback;
+import fr.distrimind.oss.upnp.mock.MockUpnpService;
+import fr.distrimind.oss.upnp.model.DefaultServiceManager;
+import fr.distrimind.oss.upnp.model.action.ActionCancelledException;
+import fr.distrimind.oss.upnp.model.action.ActionInvocation;
+import fr.distrimind.oss.upnp.model.message.UpnpResponse;
+import fr.distrimind.oss.upnp.model.meta.Action;
+import fr.distrimind.oss.upnp.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.model.meta.LocalService;
+import fr.distrimind.oss.upnp.model.types.UDAServiceId;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -86,19 +86,19 @@ import static org.testng.Assert.assertTrue;
  * <tbody>
  * <tr>
  * <td class="nowrap">
- * <code>com.distrimind.upnp.transport.impl.StreamClientImpl (default)</code>
+ * <code>fr.distrimind.oss.upnp.transport.impl.StreamClientImpl (default)</code>
  * </td>
  * <td>NO</td>
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>com.distrimind.upnp.transport.impl.apache.StreamClientImpl</code>
+ * <code>fr.distrimind.oss.upnp.transport.impl.apache.StreamClientImpl</code>
  * </td>
  * <td>YES</td>
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>com.distrimind.upnp.transport.impl.jetty.StreamClientImpl (default on Android)</code>
+ * <code>fr.distrimind.oss.upnp.transport.impl.jetty.StreamClientImpl (default on Android)</code>
  * </td>
  * <td>YES</td>
  * </tr>

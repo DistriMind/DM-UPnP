@@ -14,7 +14,7 @@
  */
 package example.localservice;
 
-import com.distrimind.upnp.binding.annotations.*;
+import fr.distrimind.oss.upnp.binding.annotations.*;
 
 @UpnpService(                                                                           // DOC:INC1
         serviceId = @UpnpServiceId("MyService"),

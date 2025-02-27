@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="24" name="Default Suite">
+  <test thread-count="24" name="testControl">
+    <classes>
+      <class name="fr.distrimind.oss.upnp.test.control.ActionInvokeIncomingTest"/>
+      <class name="fr.distrimind.oss.upnp.test.control.ActionInvokeOutgoingTest"/>
+      <class name="fr.distrimind.oss.upnp.test.control.ActionXMLProcessingTest"/>
+      <class name="fr.distrimind.oss.upnp.test.control.InvalidActionXMLProcessingTest"/>
+    </classes>
+  </test> <!-- testControl -->
+  <test thread-count="24" name="testGena">
+    <classes>
+      <class name="fr.distrimind.oss.upnp.test.gena.EventXMLProcessingTest"/>
+      <class name="fr.distrimind.oss.upnp.test.gena.IncomingSubscriptionLifecycleTest"/>
+      <class name="fr.distrimind.oss.upnp.test.control.InvalidActionXMLProcessingTest"/>
+      <class name="fr.distrimind.oss.upnp.test.gena.OutgoingSubscriptionFailureTest"/>
+      <class name="fr.distrimind.oss.upnp.test.gena.OutgoingSubscriptionLifecycleTest"/>
+    </classes>
+  </test> <!-- testGena -->
+  <test thread-count="24" name="testLocal">
+    <classes>
+      <class name="fr.distrimind.oss.upnp.test.local.LocalActionInvocationCSVTest"/>
+      <class name="fr.distrimind.oss.upnp.test.local.LocalActionInvocationDatatypesTest"/>
+      <class name="fr.distrimind.oss.upnp.test.local.LocalActionInvocationEnumTest"/>
+      <class name="fr.distrimind.oss.upnp.test.local.LocalActionInvocationNullTest"/>
+      <class name="fr.distrimind.oss.upnp.test.local.LocalDeviceBindingAdvertisementTest"/>
+    </classes>
+  </test> <!-- testLocal -->
+  <test thread-count="24" name="testModel">
+    <classes>
+      <class name="fr.distrimind.oss.upnp.test.model.profile.DeviceDetailsProviderTest"/>
+      <class name="fr.distrimind.oss.upnp.test.model.DatagramParsingTest"/>
+      <class name="fr.distrimind.oss.upnp.test.model.DatatypesTest"/>
+      <class name="fr.distrimind.oss.upnp.test.model.DeviceGraphTest"/>
+      <class name="fr.distrimind.oss.upnp.test.model.HeaderParsingTest"/>
+      <class name="fr.distrimind.oss.upnp.test.model.IconTest"/>
+      <class name="fr.distrimind.oss.upnp.test.model.IncompatibilityTest"/>
+      <class name="fr.distrimind.oss.upnp.test.model.LocalServiceBindingDatatypesTest"/>
+      <class name="fr.distrimind.oss.upnp.test.model.UtilTest"/>
+    </classes>
+  </test> <!-- testModel -->
+  <test thread-count="24" name="testProtocol">
+    <classes>
+      <class name="fr.distrimind.oss.upnp.test.protocol.ProtocolFactoryTest"/>
+    </classes>
+  </test> <!-- testProtocol -->
+  <test thread-count="24" name="testResources">
+    <classes>
+      <class name="fr.distrimind.oss.upnp.test.resources.DeviceDescriptorRetrievalTest"/>
+      <class name="fr.distrimind.oss.upnp.test.resources.InvalidUDA10DeviceDescriptorParsingTest"/>
+      <class name="fr.distrimind.oss.upnp.test.resources.ServiceDescriptorRetrievalTest"/>
+      <class name="fr.distrimind.oss.upnp.test.resources.UDA10DeviceDescriptorParsingTest"/>
+      <class name="fr.distrimind.oss.upnp.test.resources.UDA10ServiceDescriptorParsingTest"/>
+    </classes>
+  </test> <!-- testResources -->
+  <test thread-count="24" name="testSSDP">
+    <classes>
+      <class name="fr.distrimind.oss.upnp.test.ssdp.AdvertisementTest"/>
+      <class name="fr.distrimind.oss.upnp.test.ssdp.NotifyAliveConcurrentTest"/>
+      <class name="fr.distrimind.oss.upnp.test.ssdp.NotifyTest"/>
+      <class name="fr.distrimind.oss.upnp.test.ssdp.RegistryExpirationTest"/>
+      <class name="fr.distrimind.oss.upnp.test.ssdp.SearchReceivedTest"/>
+      <class name="fr.distrimind.oss.upnp.test.ssdp.SearchResponseTest"/>
+    </classes>
+  </test> <!-- testSSDP -->
+  <test thread-count="24" name="binary_light">
+    <classes>
+      <class name="example.binarylight.BinaryLightTest"/>
+    </classes>
+  </test> <!-- binary_light -->
+  <test thread-count="24" name="control_point">
+    <classes>
+      <class name="example.controlpoint.ActionCancellationTest"/>
+      <class name="example.controlpoint.ActionInvocationTest"/>
+      <class name="example.controlpoint.EventSubscriptionTest"/>
+      <class name="example.controlpoint.SearchExecuteTest"/>
+      <class name="example.controlpoint.SwitchPowerWithInterruption"/>
+    </classes>
+  </test> <!-- control_point -->
+  <test thread-count="24" name="igd">
+    <classes>
+      <class name="example.igd.ConnectionInfoTest"/>
+      <class name="example.igd.PortMappingTest"/>
+    </classes>
+  </test> <!-- igd -->
+  <test thread-count="24" name="local_service">
+    <classes>
+      <class name="example.localservice.AllowedValueRangeTest"/>
+      <class name="example.localservice.AllowedValueTest"/>
+      <class name="example.localservice.BasicBindingTest"/>
+      <class name="example.localservice.EnumTest"/>
+      <class name="example.localservice.EventProviderTest"/>
+      <class name="example.localservice.RemoteClientInfoTest"/>
+      <class name="example.localservice.StringConvertibleTest"/>
+    </classes>
+  </test> <!-- local_service -->
+  <test thread-count="24" name="registry">
+    <classes>
+      <class name="example.registry.RegistryBrowseTest"/>
+      <class name="example.registry.RegistryListenerTest"/>
+    </classes>
+  </test> <!-- registry -->
+</suite> <!-- Default Suite -->
+

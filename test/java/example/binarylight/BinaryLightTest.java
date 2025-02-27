@@ -1,8 +1,8 @@
 package example.binarylight;
 
-import com.distrimind.upnp.mock.MockUpnpService;
-import com.distrimind.upnp.model.meta.LocalDevice;
-import com.distrimind.upnp.model.meta.LocalService;
+import fr.distrimind.oss.upnp.mock.MockUpnpService;
+import fr.distrimind.oss.upnp.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.model.meta.LocalService;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;

@@ -1,6 +1,6 @@
 apply from: ("../common.gradle")
 
-group='com.distrimind.upnp.desktop'
+group='fr.distrimind.oss.upnp.desktop'
 sourceSets {
     test {
         java {
@@ -29,7 +29,7 @@ test {
     // enable TestNG support (default is JUnit)
     useTestNG
             {
-                suites 'src/test/resources/com/distrimind/upnp/desktop/AllTestsNG.xml'
+                suites 'src/test/resources/fr/distrimind/oss/upnp/desktop/AllTestsNG.xml'
             }
 
     // set heap size for the test JVM(s)

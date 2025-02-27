@@ -23,7 +23,7 @@ Adapt into your build.gradle file, the next code :
 	    ...
 	    dependencies {
 		    ...
-		    implementation(group:'com.distrimind.upnp.desktop', name: 'DM-UPnP-Desktop', version: '1.4.9-STABLE')
+		    implementation(group:'fr.distrimind.oss.upnp.desktop', name: 'DM-UPnP-Desktop', version: '1.5.0-STABLE')
 		    //optional :
 		    implementation(group:'org.slf4j', name: 'slf4j-jdk14', version: '2.0.16')
 		    ...
@@ -37,7 +37,7 @@ Adapt into your build.gradle file, the next code :
 	    ...
 	    dependencies {
 		    ...
-		    implementation(group:'com.distrimind.upnp.android', name: 'DM-UPnP-Android', version: '1.4.9-STABLE')
+		    implementation(group:'fr.distrimind.oss.upnp.android', name: 'DM-UPnP-Android', version: '1.5.0-STABLE')
 		    ...
 	    }
 	    ...
@@ -56,7 +56,7 @@ Adapt into your build.gradle file, the next code :
         ...
     ```
 
-To know what is the last uploaded version, please refer to versions available here : [this repository](https://artifactory.distri-mind.fr/ui/native/DistriMind-Public/com/distrimind/upnp/DM-UPnP-Common/)
+To know what is the last uploaded version, please refer to versions available here : [this repository](https://artifactory.distri-mind.fr/ui/native/DistriMind-Public/fr/distrimind/oss/upnp/)
 ### With Maven :
 Adapt into your pom.xml file, the next code :
  - When using DM-UPnP into desktop environment, please add this dependency (minimum Java version is 11) :
@@ -67,9 +67,9 @@ Adapt into your pom.xml file, the next code :
             <dependencies>
                 ...
                 <dependency>
-                    <groupId>com.distrimind.upnp.desktop</groupId>
+                    <groupId>fr.distrimind.oss.upnp.desktop</groupId>
                     <artifactId>DM-UPnP-Desktop</artifactId>
-                    <version>1.4.9-STABLE</version>
+                    <version>1.5.0-STABLE</version>
                 </dependency>
                 <-- optional -->
                 <dependency>
@@ -87,11 +87,19 @@ Adapt into your pom.xml file, the next code :
  - When using DM-UPnP into android environment, please add this dependency (minimum Android API version is 26) :
     ```
         ...
-        <dependency>
-            <groupId>com.distrimind.upnp.android</groupId>
-            <artifactId>DM-UPnP-Android</artifactId>
-            <version>1.4.9-STABLE</version>
-        </dependency>
+        <project>
+            ...
+            <dependencies>
+                ...
+                <dependency>
+                    <groupId>fr.distrimind.oss.upnp.android</groupId>
+                    <artifactId>DM-UPnP-Android</artifactId>
+                    <version>1.5.0-STABLE</version>
+                </dependency>
+                ...
+            </dependencies>
+            ...
+        </project>
         ...
     ```
    
@@ -108,6 +116,6 @@ Adapt into your pom.xml file, the next code :
         </repositories>
         ...		
     ```
-To know what last version has been uploaded, please refer to versions available into [this repository](https://artifactory.distri-mind.fr/ui/native/DistriMind-Public/com/distrimind/upnp/DM-UPnP-Common/)
+To know what last version has been uploaded, please refer to versions available into [this repository](https://artifactory.distri-mind.fr/ui/native/DistriMind-Public/fr/distrimind/oss/upnp/)
 
 

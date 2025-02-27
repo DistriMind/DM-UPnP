@@ -15,21 +15,21 @@
 
 package example.localservice;
 
-import com.distrimind.upnp.binding.LocalServiceBinder;
-import com.distrimind.upnp.binding.annotations.AnnotationLocalServiceBinder;
-import com.distrimind.upnp.model.DefaultServiceManager;
-import com.distrimind.upnp.model.action.RemoteActionInvocation;
-import com.distrimind.upnp.model.message.Connection;
-import com.distrimind.upnp.model.message.IUpnpHeaders;
-import com.distrimind.upnp.model.message.UpnpHeaders;
-import com.distrimind.upnp.model.message.header.UpnpHeader;
-import com.distrimind.upnp.model.message.header.UserAgentHeader;
-import com.distrimind.upnp.model.meta.DeviceDetails;
-import com.distrimind.upnp.model.meta.LocalDevice;
-import com.distrimind.upnp.model.meta.LocalService;
-import com.distrimind.upnp.model.profile.RemoteClientInfo;
-import com.distrimind.upnp.model.types.UDADeviceType;
-import com.distrimind.upnp.test.data.SampleData;
+import fr.distrimind.oss.upnp.binding.LocalServiceBinder;
+import fr.distrimind.oss.upnp.binding.annotations.AnnotationLocalServiceBinder;
+import fr.distrimind.oss.upnp.model.DefaultServiceManager;
+import fr.distrimind.oss.upnp.model.action.RemoteActionInvocation;
+import fr.distrimind.oss.upnp.model.message.Connection;
+import fr.distrimind.oss.upnp.model.message.IUpnpHeaders;
+import fr.distrimind.oss.upnp.model.message.UpnpHeaders;
+import fr.distrimind.oss.upnp.model.message.header.UpnpHeader;
+import fr.distrimind.oss.upnp.model.message.header.UserAgentHeader;
+import fr.distrimind.oss.upnp.model.meta.DeviceDetails;
+import fr.distrimind.oss.upnp.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.model.meta.LocalService;
+import fr.distrimind.oss.upnp.model.profile.RemoteClientInfo;
+import fr.distrimind.oss.upnp.model.types.UDADeviceType;
+import fr.distrimind.oss.upnp.test.data.SampleData;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
