@@ -64,7 +64,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

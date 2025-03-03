@@ -50,7 +50,7 @@ package fr.distrimind.oss.upnp.common.model.types;
 
 import fr.distrimind.oss.upnp.common.model.Constants;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 import java.util.regex.Matcher;
 

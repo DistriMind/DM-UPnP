@@ -32,22 +32,22 @@
 
 package fr.distrimind.oss.upnp.android;
 
-import fr.distrimind.oss.flexilogxml.FlexiLogXML;
-import fr.distrimind.oss.flexilogxml.TestGroup;
-import fr.distrimind.oss.flexilogxml.Tests;
+import fr.distrimind.oss.flexilogxml.common.FlexiLogXML;
+import fr.distrimind.oss.flexilogxml.common.TestGroup;
+import fr.distrimind.oss.flexilogxml.common.Tests;
 import fr.distrimind.oss.upnp.android.transport.UndertowServerUndertowClientTest;
 
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 
 
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-public class AllTestsForAndroidEmulator extends fr.distrimind.oss.upnp.test.AllTests {
+public class AllTestsForAndroidEmulator extends fr.distrimind.oss.upnp.common.test.AllTests {
     static
     {
-        fr.distrimind.oss.upnp.test.AllTests.additionalTestGroups= List.of(
+        fr.distrimind.oss.upnp.common.test.AllTests.additionalTestGroups= List.of(
                 new TestGroup("testTransport", List.of(
                         UndertowServerUndertowClientTest.class
 
@@ -56,7 +56,7 @@ public class AllTestsForAndroidEmulator extends fr.distrimind.oss.upnp.test.AllT
     }
     public static Tests getTests()
     {
-        return fr.distrimind.oss.upnp.test.AllTests.getTests();
+        return fr.distrimind.oss.upnp.common.test.AllTests.getTests();
     }
 
     public static void main(String[] args) throws IOException {

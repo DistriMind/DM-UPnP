@@ -57,7 +57,7 @@ import fr.distrimind.oss.upnp.common.support.model.TransportState;
 
 import java.net.URI;
 import java.util.List;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 
 /**
  * @author Christian Bauer

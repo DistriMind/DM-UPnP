@@ -14,8 +14,8 @@
  */
 package example.igd;
 
-import fr.distrimind.oss.flexilogxml.FlexiLogXML;
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.FlexiLogXML;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 import fr.distrimind.oss.upnp.common.UpnpService;
 import fr.distrimind.oss.upnp.common.mock.MockUpnpService;
 import fr.distrimind.oss.upnp.common.model.action.ActionInvocation;

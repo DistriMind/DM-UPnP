@@ -80,7 +80,7 @@
 
 package fr.distrimind.oss.upnp.common;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.binding.xml.DeviceDescriptorBinder;
 import fr.distrimind.oss.upnp.common.binding.xml.ServiceDescriptorBinder;
 import fr.distrimind.oss.upnp.common.model.Constants;

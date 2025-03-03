@@ -48,7 +48,7 @@
 
 package fr.distrimind.oss.upnp.common.binding.xml;
 
-import fr.distrimind.oss.flexilogxml.exceptions.XMLStreamException;
+import fr.distrimind.oss.flexilogxml.common.exceptions.XMLStreamException;
 import fr.distrimind.oss.upnp.common.model.ModelUtil;
 import fr.distrimind.oss.upnp.common.model.ValidationException;
 import fr.distrimind.oss.upnp.common.model.meta.Device;
@@ -59,7 +59,7 @@ import fr.distrimind.oss.upnp.common.xml.ParserException;
 import fr.distrimind.oss.upnp.common.xml.XmlPullParserUtils;
 
 import java.util.Locale;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 import java.util.regex.Matcher;

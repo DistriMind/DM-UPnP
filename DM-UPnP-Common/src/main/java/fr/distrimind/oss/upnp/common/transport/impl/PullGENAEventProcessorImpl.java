@@ -49,7 +49,7 @@
 package fr.distrimind.oss.upnp.common.transport.impl;
 
 import java.util.Collection;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 import fr.distrimind.oss.upnp.common.model.message.gena.IncomingEventRequestMessage;

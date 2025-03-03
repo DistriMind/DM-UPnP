@@ -144,7 +144,7 @@
 
 package fr.distrimind.oss.upnp.common.platform;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 import fr.distrimind.oss.upnp.common.util.Exceptions;
 

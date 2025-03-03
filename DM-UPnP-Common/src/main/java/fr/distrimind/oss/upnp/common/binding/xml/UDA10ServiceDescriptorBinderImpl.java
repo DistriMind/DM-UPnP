@@ -48,9 +48,9 @@
 
 package fr.distrimind.oss.upnp.common.binding.xml;
 
-import fr.distrimind.oss.flexilogxml.exceptions.XMLStreamException;
-import fr.distrimind.oss.flexilogxml.xml.IXmlReader;
-import fr.distrimind.oss.flexilogxml.xml.IXmlWriter;
+import fr.distrimind.oss.flexilogxml.common.exceptions.XMLStreamException;
+import fr.distrimind.oss.flexilogxml.common.xml.IXmlReader;
+import fr.distrimind.oss.flexilogxml.common.xml.IXmlWriter;
 import fr.distrimind.oss.upnp.common.binding.staging.MutableAction;
 import fr.distrimind.oss.upnp.common.binding.staging.MutableActionArgument;
 import fr.distrimind.oss.upnp.common.binding.staging.MutableAllowedValueRange;
@@ -66,7 +66,7 @@ import fr.distrimind.oss.upnp.common.transport.spi.NetworkAddressFactory;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 import static fr.distrimind.oss.upnp.common.binding.xml.Descriptor.Service.ATTRIBUTE;

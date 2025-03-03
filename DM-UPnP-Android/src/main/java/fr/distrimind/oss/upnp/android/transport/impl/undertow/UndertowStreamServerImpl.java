@@ -32,7 +32,7 @@
 
 package fr.distrimind.oss.upnp.android.transport.impl.undertow;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 import fr.distrimind.oss.upnp.common.model.message.Connection;
 import fr.distrimind.oss.upnp.common.model.types.HostPort;

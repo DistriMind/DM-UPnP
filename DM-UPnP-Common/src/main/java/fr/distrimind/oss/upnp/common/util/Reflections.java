@@ -49,8 +49,8 @@
 package fr.distrimind.oss.upnp.common.util;
 
 
-import fr.distrimind.oss.flexilogxml.ReflectionTools;
-import fr.distrimind.oss.flexilogxml.UtilClassLoader;
+import fr.distrimind.oss.flexilogxml.common.ReflectionTools;
+import fr.distrimind.oss.flexilogxml.common.UtilClassLoader;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.*;

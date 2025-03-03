@@ -48,7 +48,7 @@
 
 package fr.distrimind.oss.upnp.common.registry;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

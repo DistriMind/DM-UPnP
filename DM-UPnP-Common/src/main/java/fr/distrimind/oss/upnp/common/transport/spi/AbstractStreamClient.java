@@ -47,7 +47,7 @@
  */
 package fr.distrimind.oss.upnp.common.transport.spi;
 
-import fr.distrimind.oss.flexilogxml.FlexiLogXML;
+import fr.distrimind.oss.flexilogxml.common.FlexiLogXML;
 import fr.distrimind.oss.upnp.common.model.message.StreamRequestMessage;
 import fr.distrimind.oss.upnp.common.model.message.StreamResponseMessage;
 import fr.distrimind.oss.upnp.common.util.Exceptions;
@@ -57,10 +57,10 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 
 /**
  * Implements the timeout/callback processing and unifies exception handling.

@@ -50,7 +50,7 @@ package fr.distrimind.oss.upnp.common.protocol.sync;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 import fr.distrimind.oss.upnp.common.protocol.SendingSync;

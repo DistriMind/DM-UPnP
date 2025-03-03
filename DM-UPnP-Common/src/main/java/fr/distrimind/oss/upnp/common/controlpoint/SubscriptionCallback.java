@@ -63,7 +63,7 @@ import fr.distrimind.oss.upnp.common.protocol.sync.SendingSubscribe;
 import fr.distrimind.oss.upnp.common.util.Exceptions;
 
 import java.util.Collections;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

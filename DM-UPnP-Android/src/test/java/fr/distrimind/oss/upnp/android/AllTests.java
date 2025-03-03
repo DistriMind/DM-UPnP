@@ -65,14 +65,14 @@
 
 package fr.distrimind.oss.upnp.android;
 
-import fr.distrimind.oss.flexilogxml.FlexiLogXML;
-import fr.distrimind.oss.flexilogxml.TestGroup;
-import fr.distrimind.oss.flexilogxml.Tests;
+import fr.distrimind.oss.flexilogxml.common.FlexiLogXML;
+import fr.distrimind.oss.flexilogxml.common.TestGroup;
+import fr.distrimind.oss.flexilogxml.common.Tests;
 import fr.distrimind.oss.upnp.android.transport.JDKServerJDKClientTest;
 import fr.distrimind.oss.upnp.android.transport.JDKServerUndertowClientTest;
 import fr.distrimind.oss.upnp.android.transport.UndertowServerJDKClientTest;
 import fr.distrimind.oss.upnp.android.transport.UndertowServerUndertowClientTest;
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 
 import java.io.File;
 import java.io.IOException;

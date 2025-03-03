@@ -60,10 +60,10 @@ import fr.distrimind.oss.upnp.common.model.meta.StateVariable;
 import fr.distrimind.oss.upnp.common.model.state.StateVariableValue;
 import fr.distrimind.oss.upnp.common.transport.spi.GENAEventProcessor;
 import fr.distrimind.oss.upnp.common.model.UnsupportedDataException;
-import fr.distrimind.oss.flexilogxml.exceptions.XMLStreamException;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.flexilogxml.xml.IXmlReader;
-import fr.distrimind.oss.flexilogxml.xml.IXmlWriter;
+import fr.distrimind.oss.flexilogxml.common.exceptions.XMLStreamException;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.xml.IXmlReader;
+import fr.distrimind.oss.flexilogxml.common.xml.IXmlWriter;
 
 import java.util.Collection;
 

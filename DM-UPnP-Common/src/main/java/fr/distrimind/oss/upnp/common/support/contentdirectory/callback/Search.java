@@ -59,7 +59,7 @@ import fr.distrimind.oss.upnp.common.support.model.DIDLContent;
 import fr.distrimind.oss.upnp.common.support.model.SearchResult;
 import fr.distrimind.oss.upnp.common.support.model.SortCriterion;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

@@ -48,7 +48,7 @@
 
 package fr.distrimind.oss.upnp.common.model.message.control;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 import fr.distrimind.oss.upnp.common.model.message.StreamRequestMessage;

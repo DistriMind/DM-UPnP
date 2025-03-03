@@ -57,7 +57,7 @@ import fr.distrimind.oss.upnp.common.protocol.RetrieveRemoteDescriptors;
 import fr.distrimind.oss.upnp.common.protocol.sync.*;
 import fr.distrimind.oss.upnp.common.registry.Registry;
 import fr.distrimind.oss.upnp.common.swing.logging.LogCategory;
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 import fr.distrimind.oss.upnp.common.model.message.UpnpHeaders;
 import fr.distrimind.oss.upnp.common.transport.Router;
 import fr.distrimind.oss.upnp.common.transport.spi.*;

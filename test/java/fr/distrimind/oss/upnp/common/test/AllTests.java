@@ -65,8 +65,8 @@
 
 package fr.distrimind.oss.upnp.common.test;
 
-import fr.distrimind.oss.flexilogxml.TestGroup;
-import fr.distrimind.oss.flexilogxml.Tests;
+import fr.distrimind.oss.flexilogxml.common.TestGroup;
+import fr.distrimind.oss.flexilogxml.common.Tests;
 import fr.distrimind.oss.upnp.common.test.control.ActionInvokeIncomingTest;
 import fr.distrimind.oss.upnp.common.test.control.ActionInvokeOutgoingTest;
 import fr.distrimind.oss.upnp.common.test.control.ActionXMLProcessingTest;
@@ -75,13 +75,10 @@ import fr.distrimind.oss.upnp.common.test.local.*;
 import fr.distrimind.oss.upnp.common.test.model.*;
 import fr.distrimind.oss.upnp.common.test.resources.*;
 import fr.distrimind.oss.upnp.common.test.ssdp.*;
-import fr.distrimind.oss.upnp.test.control.*;
 import fr.distrimind.oss.upnp.common.test.gena.EventXMLProcessingTest;
 import fr.distrimind.oss.upnp.common.test.gena.IncomingSubscriptionLifecycleTest;
 import fr.distrimind.oss.upnp.common.test.gena.OutgoingSubscriptionFailureTest;
 import fr.distrimind.oss.upnp.common.test.gena.OutgoingSubscriptionLifecycleTest;
-import fr.distrimind.oss.upnp.test.local.*;
-import fr.distrimind.oss.upnp.test.model.*;
 import fr.distrimind.oss.upnp.common.test.model.profile.DeviceDetailsProviderTest;
 import fr.distrimind.oss.upnp.common.test.protocol.ProtocolFactoryTest;
 import example.binarylight.BinaryLightTest;
@@ -91,8 +88,6 @@ import example.igd.PortMappingTest;
 import example.localservice.*;
 import example.registry.RegistryBrowseTest;
 import example.registry.RegistryListenerTest;
-import fr.distrimind.oss.upnp.test.resources.*;
-import fr.distrimind.oss.upnp.test.ssdp.*;
 
 import java.util.ArrayList;
 import java.util.List;

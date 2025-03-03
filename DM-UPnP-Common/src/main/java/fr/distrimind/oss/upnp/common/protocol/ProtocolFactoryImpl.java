@@ -48,7 +48,7 @@
 
 package fr.distrimind.oss.upnp.common.protocol;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 import fr.distrimind.oss.upnp.common.transport.RouterException;
 import fr.distrimind.oss.upnp.common.UpnpService;

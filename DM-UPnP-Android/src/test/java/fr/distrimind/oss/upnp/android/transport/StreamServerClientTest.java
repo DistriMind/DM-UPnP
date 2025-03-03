@@ -80,8 +80,8 @@
 
 package fr.distrimind.oss.upnp.android.transport;
 
-import fr.distrimind.oss.flexilogxml.FlexiLogXML;
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.FlexiLogXML;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 import fr.distrimind.oss.upnp.common.Log;
 import fr.distrimind.oss.upnp.common.UpnpServiceConfiguration;
 import fr.distrimind.oss.upnp.common.mock.MockProtocolFactory;
@@ -107,7 +107,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.URI;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 
 import static org.testng.Assert.*;
 

@@ -14,7 +14,7 @@
  */
 package example.registry;
 
-import fr.distrimind.oss.flexilogxml.exceptions.XMLStreamException;
+import fr.distrimind.oss.flexilogxml.common.exceptions.XMLStreamException;
 import fr.distrimind.oss.upnp.common.binding.xml.DeviceDescriptorBinder;
 import fr.distrimind.oss.upnp.common.mock.MockRouter;
 import fr.distrimind.oss.upnp.common.mock.MockUpnpService;

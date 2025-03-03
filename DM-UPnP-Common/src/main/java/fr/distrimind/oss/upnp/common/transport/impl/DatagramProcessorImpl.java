@@ -50,7 +50,7 @@ package fr.distrimind.oss.upnp.common.transport.impl;
 
 import java.nio.charset.StandardCharsets;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 import fr.distrimind.oss.upnp.common.model.Constants;
 import fr.distrimind.oss.upnp.common.model.message.*;

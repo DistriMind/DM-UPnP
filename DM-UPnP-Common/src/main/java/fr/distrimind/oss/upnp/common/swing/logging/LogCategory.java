@@ -43,7 +43,7 @@
  */
  package fr.distrimind.oss.upnp.common.swing.logging;
 
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 
 import java.util.ArrayList;
 import java.util.Arrays;

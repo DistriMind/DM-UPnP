@@ -71,7 +71,7 @@ import fr.distrimind.oss.upnp.common.model.resource.ServiceDescriptorResource;
 import fr.distrimind.oss.upnp.common.util.Exceptions;
 
 import java.net.URI;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

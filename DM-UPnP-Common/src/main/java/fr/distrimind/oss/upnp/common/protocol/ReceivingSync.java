@@ -54,7 +54,7 @@ import fr.distrimind.oss.upnp.common.model.message.StreamRequestMessage;
 import fr.distrimind.oss.upnp.common.model.message.StreamResponseMessage;
 import fr.distrimind.oss.upnp.common.model.profile.RemoteClientInfo;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

@@ -1,6 +1,6 @@
 package example.binarylight;
 
-import fr.distrimind.oss.flexilogxml.concurrent.ThreadType;
+import fr.distrimind.oss.flexilogxml.common.concurrent.ThreadType;
 import fr.distrimind.oss.upnp.common.controlpoint.ActionCallback;
 import fr.distrimind.oss.upnp.common.model.action.ActionInvocation;
 import fr.distrimind.oss.upnp.common.model.message.UpnpResponse;

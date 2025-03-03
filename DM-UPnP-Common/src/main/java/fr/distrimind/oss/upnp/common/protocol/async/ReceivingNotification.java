@@ -61,7 +61,7 @@ import fr.distrimind.oss.upnp.common.model.meta.RemoteDevice;
 import fr.distrimind.oss.upnp.common.model.meta.RemoteDeviceIdentity;
 import fr.distrimind.oss.upnp.common.model.types.UDN;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

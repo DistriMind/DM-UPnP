@@ -48,7 +48,7 @@
 
 package fr.distrimind.oss.upnp.common.protocol.sync;
 
-import fr.distrimind.oss.flexilogxml.FlexiLogXML;
+import fr.distrimind.oss.flexilogxml.common.FlexiLogXML;
 import fr.distrimind.oss.upnp.common.model.action.ActionExecutor;
 import fr.distrimind.oss.upnp.common.model.meta.Action;
 import fr.distrimind.oss.upnp.common.model.meta.LocalService;
@@ -70,10 +70,10 @@ import fr.distrimind.oss.upnp.common.model.types.ErrorCode;
 import fr.distrimind.oss.upnp.common.model.UnsupportedDataException;
 import fr.distrimind.oss.upnp.common.util.Exceptions;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 
 /**
  * Handles reception of control messages, invoking actions on local services.

@@ -80,9 +80,9 @@
 
 package fr.distrimind.oss.upnp.common;
 
-import fr.distrimind.oss.flexilogxml.FlexiLogXML;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.FlexiLogXML;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 
 public class Log {
 

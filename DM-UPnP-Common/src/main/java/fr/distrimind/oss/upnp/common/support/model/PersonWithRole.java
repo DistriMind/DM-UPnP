@@ -48,8 +48,8 @@
 
 package fr.distrimind.oss.upnp.common.support.model;
 
-import fr.distrimind.oss.flexilogxml.exceptions.XMLStreamException;
-import fr.distrimind.oss.flexilogxml.xml.IXmlWriter;
+import fr.distrimind.oss.flexilogxml.common.exceptions.XMLStreamException;
+import fr.distrimind.oss.flexilogxml.common.xml.IXmlWriter;
 
 /**
  * @author Christian Bauer

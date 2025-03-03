@@ -57,7 +57,7 @@ import fr.distrimind.oss.upnp.common.protocol.ProtocolFactory;
 import fr.distrimind.oss.upnp.common.protocol.ReceivingSync;
 import fr.distrimind.oss.upnp.common.util.Exceptions;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

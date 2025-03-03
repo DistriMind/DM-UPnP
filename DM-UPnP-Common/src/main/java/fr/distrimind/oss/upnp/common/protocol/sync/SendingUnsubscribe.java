@@ -57,7 +57,7 @@ import fr.distrimind.oss.upnp.common.model.gena.RemoteGENASubscription;
 import fr.distrimind.oss.upnp.common.model.message.StreamResponseMessage;
 import fr.distrimind.oss.upnp.common.model.message.gena.OutgoingUnsubscribeRequestMessage;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

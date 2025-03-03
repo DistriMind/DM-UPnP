@@ -63,7 +63,7 @@ import fr.distrimind.oss.upnp.common.registry.Registry;
 import fr.distrimind.oss.upnp.common.support.model.PortMapping;
 
 import java.util.*;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

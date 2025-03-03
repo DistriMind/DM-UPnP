@@ -52,7 +52,7 @@ package fr.distrimind.oss.upnp.common.model.message.header;
 import fr.distrimind.oss.upnp.common.util.Exceptions;
 
 import java.util.*;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

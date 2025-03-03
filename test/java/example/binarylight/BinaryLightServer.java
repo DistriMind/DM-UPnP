@@ -1,6 +1,6 @@
 package example.binarylight;
 
-import fr.distrimind.oss.flexilogxml.concurrent.ThreadType;
+import fr.distrimind.oss.flexilogxml.common.concurrent.ThreadType;
 import fr.distrimind.oss.upnp.common.binding.LocalServiceBindingException;
 import fr.distrimind.oss.upnp.common.binding.annotations.AnnotationLocalServiceBinder;
 import fr.distrimind.oss.upnp.common.model.DefaultServiceManager;

@@ -58,7 +58,7 @@ import fr.distrimind.oss.upnp.common.model.message.StreamResponseMessage;
 import fr.distrimind.oss.upnp.common.model.message.gena.IncomingSubscribeResponseMessage;
 import fr.distrimind.oss.upnp.common.model.message.gena.OutgoingRenewalRequestMessage;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

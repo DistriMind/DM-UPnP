@@ -52,9 +52,9 @@ import fr.distrimind.oss.upnp.common.Log;
 import fr.distrimind.oss.upnp.common.model.ModelUtil;
 import fr.distrimind.oss.upnp.common.model.XMLUtil;
 import fr.distrimind.oss.upnp.common.swing.Application;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.flexilogxml.xml.IXmlReader;
-import fr.distrimind.oss.flexilogxml.xml.IXmlWriter;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.xml.IXmlReader;
+import fr.distrimind.oss.flexilogxml.common.xml.IXmlWriter;
 
 import javax.swing.JDialog;
 import javax.swing.JScrollPane;

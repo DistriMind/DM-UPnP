@@ -63,7 +63,7 @@ import jakarta.inject.Inject;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Future;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

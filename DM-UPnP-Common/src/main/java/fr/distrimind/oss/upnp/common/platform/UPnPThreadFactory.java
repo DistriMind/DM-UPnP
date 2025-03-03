@@ -114,7 +114,7 @@ package fr.distrimind.oss.upnp.common.platform;
 
 
 
-import fr.distrimind.oss.flexilogxml.concurrent.ThreadType;
+import fr.distrimind.oss.flexilogxml.common.concurrent.ThreadType;
 
 import java.util.concurrent.ThreadFactory;
 

@@ -59,7 +59,7 @@ import fr.distrimind.oss.upnp.common.model.UnsupportedDataException;
 import fr.distrimind.oss.upnp.common.transport.spi.NetworkAddressFactory;
 
 import java.net.*;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

@@ -53,7 +53,7 @@ import fr.distrimind.oss.upnp.common.model.ValidationError;
 
 import java.util.List;
 import java.util.ArrayList;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

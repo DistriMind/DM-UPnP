@@ -50,7 +50,7 @@ package fr.distrimind.oss.upnp.common.support.avtransport.impl.state;
 
 import java.net.URI;
 import java.util.List;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 
 import fr.distrimind.oss.upnp.common.Log;
 import fr.distrimind.oss.upnp.common.support.avtransport.lastchange.AVTransportVariable;

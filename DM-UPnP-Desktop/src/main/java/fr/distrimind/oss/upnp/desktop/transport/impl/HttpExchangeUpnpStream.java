@@ -49,6 +49,7 @@
 package fr.distrimind.oss.upnp.desktop.transport.impl;
 
 import com.sun.net.httpserver.HttpExchange;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.model.message.Connection;
 import fr.distrimind.oss.upnp.common.model.message.StreamRequestMessage;
 import fr.distrimind.oss.upnp.common.model.message.StreamResponseMessage;
@@ -65,7 +66,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.util.Locale;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

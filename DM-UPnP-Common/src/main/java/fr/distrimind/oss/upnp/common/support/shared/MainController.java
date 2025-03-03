@@ -48,9 +48,10 @@
 
 package fr.distrimind.oss.upnp.common.support.shared;
 
-import fr.distrimind.oss.flexilogxml.concurrent.ThreadType;
-import fr.distrimind.oss.flexilogxml.log.Handler;
-import fr.distrimind.oss.flexilogxml.log.LogManager;
+
+import fr.distrimind.oss.flexilogxml.common.concurrent.ThreadType;
+import fr.distrimind.oss.flexilogxml.common.log.Handler;
+import fr.distrimind.oss.flexilogxml.common.log.LogManager;
 import fr.distrimind.oss.upnp.common.Log;
 import fr.distrimind.oss.upnp.common.UpnpService;
 import fr.distrimind.oss.upnp.common.swing.AbstractController;
@@ -70,8 +71,8 @@ import java.awt.Frame;
 import java.util.List;
 import java.util.concurrent.ThreadFactory;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 
 /**
  * @author Christian Bauer

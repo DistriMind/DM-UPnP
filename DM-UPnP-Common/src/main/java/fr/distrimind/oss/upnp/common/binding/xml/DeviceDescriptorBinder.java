@@ -48,7 +48,7 @@
 
 package fr.distrimind.oss.upnp.common.binding.xml;
 
-import fr.distrimind.oss.flexilogxml.xml.IXmlReader;
+import fr.distrimind.oss.flexilogxml.common.xml.IXmlReader;
 import fr.distrimind.oss.upnp.common.model.Namespace;
 import fr.distrimind.oss.upnp.common.model.ValidationException;
 import fr.distrimind.oss.upnp.common.model.meta.Device;

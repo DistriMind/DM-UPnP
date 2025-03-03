@@ -49,9 +49,9 @@
 
 package fr.distrimind.oss.upnp.desktop;
 
-import fr.distrimind.oss.flexilogxml.FlexiLogXML;
-import fr.distrimind.oss.flexilogxml.Tests;
-import fr.distrimind.oss.flexilogxml.log.Level;
+import fr.distrimind.oss.flexilogxml.common.FlexiLogXML;
+import fr.distrimind.oss.flexilogxml.common.Tests;
+import fr.distrimind.oss.flexilogxml.common.log.Level;
 
 import java.io.File;
 import java.io.IOException;

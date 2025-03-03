@@ -54,7 +54,7 @@ import fr.distrimind.oss.upnp.common.model.message.UpnpMessage;
 import fr.distrimind.oss.upnp.common.model.message.header.UpnpHeader;
 import fr.distrimind.oss.upnp.common.util.Exceptions;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

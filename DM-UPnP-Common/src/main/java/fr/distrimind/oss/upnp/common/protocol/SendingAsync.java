@@ -52,7 +52,7 @@ import fr.distrimind.oss.upnp.common.transport.RouterException;
 import fr.distrimind.oss.upnp.common.UpnpService;
 import fr.distrimind.oss.upnp.common.util.Exceptions;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

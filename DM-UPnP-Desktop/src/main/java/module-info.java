@@ -15,9 +15,9 @@
 
 module fr.distrimind.oss.upnp.desktop {
 	requires fr.distrimind.oss.upnp.common;
-	requires FlexiLogXML_Desktop;
-	requires FlexiLogXML_Common;
+	requires fr.distrimind.oss.flexilogxml.desktop;
 	requires static jdk.httpserver;
+	requires fr.distrimind.oss.flexilogxml.common;
 	exports fr.distrimind.oss.upnp.desktop.platform;
 	exports fr.distrimind.oss.upnp.desktop.transport.impl;
 }

@@ -1,11 +1,10 @@
 [versions]
-beanShellVersion='2.0b6'
 jsoupVersion='1.18.3'
 jakartaCdiAPIVersion='4.1.0'
 testngVersion='7.11.0'
 junitVersion = "4.13.2"
 androidStubVersion = "4.3.0.0"
-dmFlexiLogXML='2.1.2-STABLE'
+dmFlexiLogXML='2.1.3-STABLE'
 undertow='2.3.18.Final'
 logback='1.5.17'
 
@@ -13,7 +12,6 @@ logback='1.5.17'
 jsoup = { group = "org.jsoup", name = "jsoup", version.ref = "jsoupVersion" }
 jakarta-enterprise-cdi-api = { group = "jakarta.enterprise", name = "jakarta.enterprise.cdi-api", version.ref = "jakartaCdiAPIVersion" }
 testng = { group = "org.testng", name = "testng", version.ref = "testngVersion" }
-bsh = { group = "org.apache-extras.beanshell", name = "bsh", version.ref = "beanShellVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junitVersion" }
 androidStub = { group = "stub.android", name = "AndroidStub", version.ref = "androidStubVersion" }
 dm-flexi-logxml-common = { group = "fr.distrimind.oss.flexilogxml.common", name = "DM-FlexiLogXML-Common", version.ref = "dmFlexiLogXML" }

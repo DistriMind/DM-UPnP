@@ -59,7 +59,7 @@ import fr.distrimind.oss.upnp.common.model.message.gena.OutgoingSubscribeRequest
 import fr.distrimind.oss.upnp.common.UpnpService;
 
 import java.util.List;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

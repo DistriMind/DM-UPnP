@@ -43,8 +43,8 @@
  */
  package fr.distrimind.oss.upnp.common.swing.logging;
 
-import fr.distrimind.oss.flexilogxml.log.Handler;
-import fr.distrimind.oss.flexilogxml.log.LogRecord;
+import fr.distrimind.oss.flexilogxml.common.log.Handler;
+import fr.distrimind.oss.flexilogxml.common.log.LogRecord;
 
 
  /**

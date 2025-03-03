@@ -55,7 +55,7 @@ import fr.distrimind.oss.upnp.common.util.Exceptions;
 import java.net.URI;
 import java.util.Collection;
 import java.util.Map;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

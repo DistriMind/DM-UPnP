@@ -55,7 +55,7 @@ import fr.distrimind.oss.upnp.common.xml.XmlPullParserUtils;
 
 import jakarta.enterprise.inject.Alternative;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

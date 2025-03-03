@@ -61,7 +61,7 @@ import fr.distrimind.oss.upnp.common.model.message.gena.OutgoingEventResponseMes
 import fr.distrimind.oss.upnp.common.model.resource.ServiceEventCallbackResource;
 import fr.distrimind.oss.upnp.common.model.UnsupportedDataException;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

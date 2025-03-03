@@ -55,10 +55,10 @@ import java.net.InetAddress;
 import java.net.URI;
 import java.net.URL;
 
-import fr.distrimind.oss.flexilogxml.exceptions.XMLStreamException;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.flexilogxml.xml.IXmlReader;
-import fr.distrimind.oss.flexilogxml.xml.IXmlWriter;
+import fr.distrimind.oss.flexilogxml.common.exceptions.XMLStreamException;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.xml.IXmlReader;
+import fr.distrimind.oss.flexilogxml.common.xml.IXmlWriter;
 import fr.distrimind.oss.upnp.common.Log;
 
 import fr.distrimind.oss.upnp.common.binding.staging.MutableDevice;

@@ -46,11 +46,11 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class TestNGRunner {
 	@Parameterized.Parameters(name = "{index}: {0}")
-	public static Collection<fr.distrimind.oss.flexilogxml.Tests[]> data() {
+	public static Collection<fr.distrimind.oss.flexilogxml.common.Tests[]> data() {
 		return AllTestsForAndroidEmulator.getTests().getDataForJunitTests(4);
 	}
-	private final fr.distrimind.oss.flexilogxml.Tests tests;
-	public TestNGRunner(fr.distrimind.oss.flexilogxml.Tests tests)
+	private final fr.distrimind.oss.flexilogxml.common.Tests tests;
+	public TestNGRunner(fr.distrimind.oss.flexilogxml.common.Tests tests)
 	{
 		if (tests==null)
 			throw new NullPointerException();

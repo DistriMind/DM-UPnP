@@ -93,7 +93,7 @@ import fr.distrimind.oss.upnp.common.transport.RouterImpl;
 import fr.distrimind.oss.upnp.common.util.Exceptions;
 
 import jakarta.enterprise.inject.Alternative;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 
 import java.io.IOException;
 

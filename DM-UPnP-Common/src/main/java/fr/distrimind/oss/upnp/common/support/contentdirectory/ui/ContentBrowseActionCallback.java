@@ -60,7 +60,7 @@ import fr.distrimind.oss.upnp.common.model.types.ErrorCode;
 import fr.distrimind.oss.upnp.common.support.model.container.Container;
 import fr.distrimind.oss.upnp.common.support.model.item.Item;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 import javax.swing.tree.MutableTreeNode;

@@ -43,7 +43,7 @@
  */
  package fr.distrimind.oss.upnp.common.statemachine;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 import java.lang.reflect.InvocationHandler;

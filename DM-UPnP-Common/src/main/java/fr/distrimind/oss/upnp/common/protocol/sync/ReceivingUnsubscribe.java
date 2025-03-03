@@ -58,7 +58,7 @@ import fr.distrimind.oss.upnp.common.model.message.UpnpResponse;
 import fr.distrimind.oss.upnp.common.model.message.gena.IncomingUnsubscribeRequestMessage;
 import fr.distrimind.oss.upnp.common.model.resource.ServiceEventSubscriptionResource;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 /**

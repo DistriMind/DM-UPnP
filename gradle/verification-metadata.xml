@@ -21,8 +21,9 @@
       <keyring-format>armored</keyring-format>
       <trusted-keys>
          <trusted-key id="0785B3EFF60B1B1BEA94E0BB7C25280EAE63EBE5" group="^org[.]apache[.]httpcomponents($|([.].*))" regex="true"/>
-         <trusted-key id="19BEAB2D799C020F17C69126B16698A4ADF4D638" group="org.checkerframework" name="checker-qual" version="3.48.3"/>
+         <trusted-key id="19BEAB2D799C020F17C69126B16698A4ADF4D638" group="org.checkerframework" name="checker-qual" version="3.49.0"/>
          <trusted-key id="1D85469D8559C2E1DF5F925131D2D79DF7E85DD3" group="org.jcommander" name="jcommander" version="1.83"/>
+         <trusted-key id="1E046C19ED2873D8C08AF7B8A0632691B78E3422" group="net.sourceforge.pmd"/>
          <trusted-key id="2DB4F1EF0FA761ECC4EA935C86FDC7E2A11262CB" group="org.apache.commons"/>
          <trusted-key id="4021EEEAFF5DE8404DCD0A270AA3E5C3D232E79B">
             <trusting group="jakarta.enterprise"/>

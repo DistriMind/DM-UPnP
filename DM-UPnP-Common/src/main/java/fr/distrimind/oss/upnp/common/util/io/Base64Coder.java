@@ -48,7 +48,7 @@
 
 package fr.distrimind.oss.upnp.common.util.io;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 
 import java.io.IOException;

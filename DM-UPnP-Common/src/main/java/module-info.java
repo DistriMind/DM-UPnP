@@ -19,8 +19,7 @@ module fr.distrimind.oss.upnp.common {
 	requires static jakarta.cdi;
 	requires static java.desktop;
 
-	requires FlexiLogXML_Common;
-
+	requires fr.distrimind.oss.flexilogxml.common;
 
 	exports fr.distrimind.oss.upnp.common;
 	exports fr.distrimind.oss.upnp.common.binding;

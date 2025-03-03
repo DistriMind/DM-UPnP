@@ -68,7 +68,7 @@ import javax.xml.validation.SchemaFactory;
 import java.net.URI;
 import java.net.URL;
 import java.util.HashMap;
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 import fr.distrimind.oss.upnp.common.model.ModelUtil;
 

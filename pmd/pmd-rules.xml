@@ -36,6 +36,7 @@
         <exclude name="UnitTestShouldUseTestAnnotation"/>
         <exclude name="UnitTestContainsTooManyAsserts"/>
         <exclude name="GuardLogStatement"/>
+        <exclude name="ExhaustiveSwitchHasDefault"/>
 
     </rule>
 </ruleset>

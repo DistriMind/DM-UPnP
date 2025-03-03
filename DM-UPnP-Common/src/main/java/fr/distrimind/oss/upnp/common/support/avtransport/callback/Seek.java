@@ -55,7 +55,7 @@ import fr.distrimind.oss.upnp.common.model.meta.Service;
 import fr.distrimind.oss.upnp.common.model.types.UnsignedIntegerFourBytes;
 import fr.distrimind.oss.upnp.common.support.model.SeekMode;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 
 /**
  *

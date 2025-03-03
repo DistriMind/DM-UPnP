@@ -48,7 +48,7 @@
 package fr.distrimind.oss.upnp.common.xml;
 
 
-import fr.distrimind.oss.flexilogxml.exceptions.XMLStreamException;
+import fr.distrimind.oss.flexilogxml.common.exceptions.XMLStreamException;
 
 /**
  * Unified exception thrown by the <code>DOMParser</code> and <code>SAXParser</code>.

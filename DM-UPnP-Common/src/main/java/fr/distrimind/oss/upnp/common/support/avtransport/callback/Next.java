@@ -48,7 +48,7 @@
 
 package fr.distrimind.oss.upnp.common.support.avtransport.callback;
 
-import fr.distrimind.oss.flexilogxml.log.DMLogger;
+import fr.distrimind.oss.flexilogxml.common.log.DMLogger;
 import fr.distrimind.oss.upnp.common.Log;
 import fr.distrimind.oss.upnp.common.controlpoint.ActionCallback;
 import fr.distrimind.oss.upnp.common.controlpoint.ControlPoint;
