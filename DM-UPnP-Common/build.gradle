@@ -1,5 +1,5 @@
 apply from: ("../common.gradle")
-group='fr.distrimind.oss.upnp'
+group='fr.distrimind.oss.upnp.common'
 
 dependencies {
     implementation jlibs.dm.flexi.logxml.common

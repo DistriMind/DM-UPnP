@@ -13,8 +13,8 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  */
 
-module DM_UPnP_Desktop {
-	requires DM_UPnP_Common;
+module fr.distrimind.oss.upnp.desktop {
+	requires fr.distrimind.oss.upnp.common;
 	requires FlexiLogXML_Desktop;
 	requires FlexiLogXML_Common;
 	requires static jdk.httpserver;

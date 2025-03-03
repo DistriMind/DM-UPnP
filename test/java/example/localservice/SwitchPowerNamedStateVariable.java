@@ -14,7 +14,7 @@
  */
 package example.localservice;
 
-import fr.distrimind.oss.upnp.binding.annotations.*;
+import fr.distrimind.oss.upnp.common.binding.annotations.*;
 
 /**
  * Explicitly naming related state variables

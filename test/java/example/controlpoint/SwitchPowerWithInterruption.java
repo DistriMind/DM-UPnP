@@ -14,14 +14,14 @@
  */
 package example.controlpoint;
 
-import fr.distrimind.oss.upnp.binding.annotations.UpnpAction;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpInputArgument;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpOutputArgument;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpService;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpServiceId;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpServiceType;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpStateVariable;
-import fr.distrimind.oss.upnp.model.profile.RemoteClientInfo;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpAction;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpInputArgument;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpOutputArgument;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpService;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpServiceId;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpServiceType;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpStateVariable;
+import fr.distrimind.oss.upnp.common.model.profile.RemoteClientInfo;
 
 /**
  * Reacting to cancellation on the server
@@ -81,19 +81,19 @@ import fr.distrimind.oss.upnp.model.profile.RemoteClientInfo;
  * <tbody>
  * <tr>
  * <td class="nowrap">
- * <code>fr.distrimind.oss.upnp.transport.impl.StreamClientImpl (default)</code>
+ * <code>fr.distrimind.oss.upnp.common.transport.impl.StreamClientImpl (default)</code>
  * </td>
  * <td>NO</td>
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>fr.distrimind.oss.upnp.transport.impl.apache.StreamClientImpl</code>
+ * <code>fr.distrimind.oss.upnp.common.transport.impl.apache.StreamClientImpl</code>
  * </td>
  * <td>YES</td>
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>fr.distrimind.oss.upnp.transport.impl.jetty.StreamClientImpl (default on Android)</code>
+ * <code>fr.distrimind.oss.upnp.common.transport.impl.jetty.StreamClientImpl (default on Android)</code>
  * </td>
  * <td>YES</td>
  * </tr>
@@ -120,7 +120,7 @@ import fr.distrimind.oss.upnp.model.profile.RemoteClientInfo;
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>fr.distrimind.oss.upnp.transport.impl.apache.StreamServerImpl</code>
+ * <code>fr.distrimind.oss.upnp.common.transport.impl.apache.StreamServerImpl</code>
  * </td>
  * <td>YES</td>
  * </tr>

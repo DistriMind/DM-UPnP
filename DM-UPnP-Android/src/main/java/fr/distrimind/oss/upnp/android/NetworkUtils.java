@@ -19,8 +19,8 @@ package fr.distrimind.oss.upnp.android;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import fr.distrimind.oss.upnp.Log;
-import fr.distrimind.oss.upnp.model.ModelUtil;
+import fr.distrimind.oss.upnp.common.Log;
+import fr.distrimind.oss.upnp.common.model.ModelUtil;
 
 import fr.distrimind.oss.flexilogxml.log.DMLogger;
 

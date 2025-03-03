@@ -16,22 +16,22 @@ package example.igd;
 
 import fr.distrimind.oss.flexilogxml.FlexiLogXML;
 import fr.distrimind.oss.flexilogxml.log.Level;
-import fr.distrimind.oss.upnp.UpnpService;
-import fr.distrimind.oss.upnp.mock.MockUpnpService;
-import fr.distrimind.oss.upnp.model.action.ActionInvocation;
-import fr.distrimind.oss.upnp.model.message.UpnpResponse;
-import fr.distrimind.oss.upnp.model.meta.DeviceIdentity;
-import fr.distrimind.oss.upnp.model.meta.LocalDevice;
-import fr.distrimind.oss.upnp.model.meta.LocalService;
-import fr.distrimind.oss.upnp.model.meta.Service;
-import fr.distrimind.oss.upnp.model.types.UDAServiceId;
-import fr.distrimind.oss.upnp.model.types.UnsignedIntegerTwoBytes;
-import fr.distrimind.oss.upnp.registry.RegistryListener;
-import fr.distrimind.oss.upnp.support.igd.PortMappingListener;
-import fr.distrimind.oss.upnp.support.igd.callback.PortMappingAdd;
-import fr.distrimind.oss.upnp.support.igd.callback.PortMappingDelete;
-import fr.distrimind.oss.upnp.support.igd.callback.PortMappingEntryGet;
-import fr.distrimind.oss.upnp.support.model.PortMapping;
+import fr.distrimind.oss.upnp.common.UpnpService;
+import fr.distrimind.oss.upnp.common.mock.MockUpnpService;
+import fr.distrimind.oss.upnp.common.model.action.ActionInvocation;
+import fr.distrimind.oss.upnp.common.model.message.UpnpResponse;
+import fr.distrimind.oss.upnp.common.model.meta.DeviceIdentity;
+import fr.distrimind.oss.upnp.common.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.common.model.meta.LocalService;
+import fr.distrimind.oss.upnp.common.model.meta.Service;
+import fr.distrimind.oss.upnp.common.model.types.UDAServiceId;
+import fr.distrimind.oss.upnp.common.model.types.UnsignedIntegerTwoBytes;
+import fr.distrimind.oss.upnp.common.registry.RegistryListener;
+import fr.distrimind.oss.upnp.common.support.igd.PortMappingListener;
+import fr.distrimind.oss.upnp.common.support.igd.callback.PortMappingAdd;
+import fr.distrimind.oss.upnp.common.support.igd.callback.PortMappingDelete;
+import fr.distrimind.oss.upnp.common.support.igd.callback.PortMappingEntryGet;
+import fr.distrimind.oss.upnp.common.support.model.PortMapping;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
@@ -64,7 +64,7 @@ import java.io.IOException;
  * </p>
  * <p>
  * If anything goes wrong, log messages with <code>WARNING</code> level will be created on the
- * category <code>fr.distrimind.oss.upnp.support.igd.PortMappingListener</code>. You can override the
+ * category <code>fr.distrimind.oss.upnp.common.support.igd.PortMappingListener</code>. You can override the
  * <code>PortMappingListener#handleFailureMessage(String)</code> method to customize this behavior.
  * </p>
  * <p>

@@ -15,20 +15,20 @@
 package example.registry;
 
 import fr.distrimind.oss.flexilogxml.exceptions.XMLStreamException;
-import fr.distrimind.oss.upnp.binding.xml.DeviceDescriptorBinder;
-import fr.distrimind.oss.upnp.mock.MockRouter;
-import fr.distrimind.oss.upnp.mock.MockUpnpService;
-import fr.distrimind.oss.upnp.model.message.StreamResponseMessage;
-import fr.distrimind.oss.upnp.model.message.header.ContentTypeHeader;
-import fr.distrimind.oss.upnp.model.meta.LocalDevice;
-import fr.distrimind.oss.upnp.model.meta.RemoteDevice;
-import fr.distrimind.oss.upnp.model.meta.RemoteService;
-import fr.distrimind.oss.upnp.model.profile.RemoteClientInfo;
-import fr.distrimind.oss.upnp.model.types.UDAServiceId;
-import fr.distrimind.oss.upnp.protocol.RetrieveRemoteDescriptors;
-import fr.distrimind.oss.upnp.registry.DefaultRegistryListener;
-import fr.distrimind.oss.upnp.registry.Registry;
-import fr.distrimind.oss.upnp.test.data.SampleData;
+import fr.distrimind.oss.upnp.common.binding.xml.DeviceDescriptorBinder;
+import fr.distrimind.oss.upnp.common.mock.MockRouter;
+import fr.distrimind.oss.upnp.common.mock.MockUpnpService;
+import fr.distrimind.oss.upnp.common.model.message.StreamResponseMessage;
+import fr.distrimind.oss.upnp.common.model.message.header.ContentTypeHeader;
+import fr.distrimind.oss.upnp.common.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.common.model.meta.RemoteDevice;
+import fr.distrimind.oss.upnp.common.model.meta.RemoteService;
+import fr.distrimind.oss.upnp.common.model.profile.RemoteClientInfo;
+import fr.distrimind.oss.upnp.common.model.types.UDAServiceId;
+import fr.distrimind.oss.upnp.common.protocol.RetrieveRemoteDescriptors;
+import fr.distrimind.oss.upnp.common.registry.DefaultRegistryListener;
+import fr.distrimind.oss.upnp.common.registry.Registry;
+import fr.distrimind.oss.upnp.common.test.data.SampleData;
 import org.testng.annotations.Test;
 
 import java.util.List;

@@ -32,7 +32,7 @@
 
 package fr.distrimind.oss.upnp.android.transport.impl.undertow;
 
-import fr.distrimind.oss.upnp.transport.spi.AbstractStreamClientConfiguration;
+import fr.distrimind.oss.upnp.common.transport.spi.AbstractStreamClientConfiguration;
 import org.xnio.XnioWorker;
 
 import java.util.concurrent.ExecutorService;

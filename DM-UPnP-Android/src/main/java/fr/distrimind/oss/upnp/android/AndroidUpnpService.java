@@ -16,10 +16,10 @@
 
 package fr.distrimind.oss.upnp.android;
 
-import fr.distrimind.oss.upnp.UpnpService;
-import fr.distrimind.oss.upnp.UpnpServiceConfiguration;
-import fr.distrimind.oss.upnp.controlpoint.ControlPoint;
-import fr.distrimind.oss.upnp.registry.Registry;
+import fr.distrimind.oss.upnp.common.UpnpService;
+import fr.distrimind.oss.upnp.common.UpnpServiceConfiguration;
+import fr.distrimind.oss.upnp.common.controlpoint.ControlPoint;
+import fr.distrimind.oss.upnp.common.registry.Registry;
 
 /**
  * Interface of the Android UPnP application service component.

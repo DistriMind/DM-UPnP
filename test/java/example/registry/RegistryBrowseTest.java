@@ -14,22 +14,22 @@
  */
 package example.registry;
 
-import fr.distrimind.oss.upnp.mock.MockUpnpService;
-import fr.distrimind.oss.upnp.model.meta.LocalService;
-import fr.distrimind.oss.upnp.model.resource.DeviceDescriptorResource;
-import fr.distrimind.oss.upnp.model.resource.Resource;
-import fr.distrimind.oss.upnp.model.meta.Device;
-import fr.distrimind.oss.upnp.model.meta.LocalDevice;
-import fr.distrimind.oss.upnp.model.meta.RemoteDevice;
-import fr.distrimind.oss.upnp.model.types.DeviceType;
-import fr.distrimind.oss.upnp.model.types.ServiceType;
-import fr.distrimind.oss.upnp.model.types.UDADeviceType;
-import fr.distrimind.oss.upnp.model.types.UDAServiceType;
-import fr.distrimind.oss.upnp.model.types.UDN;
-import fr.distrimind.oss.upnp.registry.Registry;
-import fr.distrimind.oss.upnp.test.data.SampleData;
-import fr.distrimind.oss.upnp.test.data.SampleDeviceRoot;
-import fr.distrimind.oss.upnp.test.data.SampleDeviceRootLocal;
+import fr.distrimind.oss.upnp.common.mock.MockUpnpService;
+import fr.distrimind.oss.upnp.common.model.meta.LocalService;
+import fr.distrimind.oss.upnp.common.model.resource.DeviceDescriptorResource;
+import fr.distrimind.oss.upnp.common.model.resource.Resource;
+import fr.distrimind.oss.upnp.common.model.meta.Device;
+import fr.distrimind.oss.upnp.common.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.common.model.meta.RemoteDevice;
+import fr.distrimind.oss.upnp.common.model.types.DeviceType;
+import fr.distrimind.oss.upnp.common.model.types.ServiceType;
+import fr.distrimind.oss.upnp.common.model.types.UDADeviceType;
+import fr.distrimind.oss.upnp.common.model.types.UDAServiceType;
+import fr.distrimind.oss.upnp.common.model.types.UDN;
+import fr.distrimind.oss.upnp.common.registry.Registry;
+import fr.distrimind.oss.upnp.common.test.data.SampleData;
+import fr.distrimind.oss.upnp.common.test.data.SampleDeviceRoot;
+import fr.distrimind.oss.upnp.common.test.data.SampleDeviceRootLocal;
 import org.testng.annotations.Test;
 
 import java.io.IOException;

@@ -18,9 +18,9 @@ import java.net.URI;
 import java.net.URL;
 import java.util.List;
 
-import fr.distrimind.oss.upnp.binding.annotations.*;
-import fr.distrimind.oss.upnp.model.types.csv.CSV;        // DOC:INC1
-import fr.distrimind.oss.upnp.model.types.csv.CSVInteger;
+import fr.distrimind.oss.upnp.common.binding.annotations.*;
+import fr.distrimind.oss.upnp.common.model.types.csv.CSV;        // DOC:INC1
+import fr.distrimind.oss.upnp.common.model.types.csv.CSVInteger;
 
 @UpnpService(
         serviceId = @UpnpServiceId("MyService"),

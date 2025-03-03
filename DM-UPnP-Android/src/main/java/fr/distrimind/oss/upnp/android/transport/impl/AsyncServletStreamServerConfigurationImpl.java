@@ -16,10 +16,10 @@
 
 package fr.distrimind.oss.upnp.android.transport.impl;
 
-import fr.distrimind.oss.upnp.transport.Router;
+import fr.distrimind.oss.upnp.common.transport.Router;
 import fr.distrimind.oss.upnp.android.transport.spi.ServletContainerAdapter;
-import fr.distrimind.oss.upnp.transport.spi.StreamServerConfiguration;
-import fr.distrimind.oss.upnp.transport.spi.UpnpStream;
+import fr.distrimind.oss.upnp.common.transport.spi.StreamServerConfiguration;
+import fr.distrimind.oss.upnp.common.transport.spi.UpnpStream;
 
 /**
  * Settings for the async Servlet 3.0 implementation.

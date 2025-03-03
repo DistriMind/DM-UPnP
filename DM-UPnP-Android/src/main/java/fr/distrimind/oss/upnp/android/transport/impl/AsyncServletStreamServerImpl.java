@@ -16,11 +16,11 @@
 
 package fr.distrimind.oss.upnp.android.transport.impl;
 
-import fr.distrimind.oss.upnp.model.message.Connection;
-import fr.distrimind.oss.upnp.transport.Router;
-import fr.distrimind.oss.upnp.transport.spi.InitializationException;
-import fr.distrimind.oss.upnp.transport.spi.NetworkAddressFactory;
-import fr.distrimind.oss.upnp.transport.spi.StreamServer;
+import fr.distrimind.oss.upnp.common.model.message.Connection;
+import fr.distrimind.oss.upnp.common.transport.Router;
+import fr.distrimind.oss.upnp.common.transport.spi.InitializationException;
+import fr.distrimind.oss.upnp.common.transport.spi.NetworkAddressFactory;
+import fr.distrimind.oss.upnp.common.transport.spi.StreamServer;
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -32,7 +32,7 @@ import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import java.net.UnknownHostException;
 import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.upnp.Log;
+import fr.distrimind.oss.upnp.common.Log;
 
 /**
  * Implementation based on Servlet 3.0 API.

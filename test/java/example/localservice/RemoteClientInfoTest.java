@@ -15,21 +15,21 @@
 
 package example.localservice;
 
-import fr.distrimind.oss.upnp.binding.LocalServiceBinder;
-import fr.distrimind.oss.upnp.binding.annotations.AnnotationLocalServiceBinder;
-import fr.distrimind.oss.upnp.model.DefaultServiceManager;
-import fr.distrimind.oss.upnp.model.action.RemoteActionInvocation;
-import fr.distrimind.oss.upnp.model.message.Connection;
-import fr.distrimind.oss.upnp.model.message.IUpnpHeaders;
-import fr.distrimind.oss.upnp.model.message.UpnpHeaders;
-import fr.distrimind.oss.upnp.model.message.header.UpnpHeader;
-import fr.distrimind.oss.upnp.model.message.header.UserAgentHeader;
-import fr.distrimind.oss.upnp.model.meta.DeviceDetails;
-import fr.distrimind.oss.upnp.model.meta.LocalDevice;
-import fr.distrimind.oss.upnp.model.meta.LocalService;
-import fr.distrimind.oss.upnp.model.profile.RemoteClientInfo;
-import fr.distrimind.oss.upnp.model.types.UDADeviceType;
-import fr.distrimind.oss.upnp.test.data.SampleData;
+import fr.distrimind.oss.upnp.common.binding.LocalServiceBinder;
+import fr.distrimind.oss.upnp.common.binding.annotations.AnnotationLocalServiceBinder;
+import fr.distrimind.oss.upnp.common.model.DefaultServiceManager;
+import fr.distrimind.oss.upnp.common.model.action.RemoteActionInvocation;
+import fr.distrimind.oss.upnp.common.model.message.Connection;
+import fr.distrimind.oss.upnp.common.model.message.IUpnpHeaders;
+import fr.distrimind.oss.upnp.common.model.message.UpnpHeaders;
+import fr.distrimind.oss.upnp.common.model.message.header.UpnpHeader;
+import fr.distrimind.oss.upnp.common.model.message.header.UserAgentHeader;
+import fr.distrimind.oss.upnp.common.model.meta.DeviceDetails;
+import fr.distrimind.oss.upnp.common.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.common.model.meta.LocalService;
+import fr.distrimind.oss.upnp.common.model.profile.RemoteClientInfo;
+import fr.distrimind.oss.upnp.common.model.types.UDADeviceType;
+import fr.distrimind.oss.upnp.common.test.data.SampleData;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

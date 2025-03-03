@@ -48,22 +48,22 @@
 
 package fr.distrimind.oss.upnp.desktop.transport.impl;
 
-import fr.distrimind.oss.upnp.transport.Router;
-import fr.distrimind.oss.upnp.transport.impl.StreamServerConfigurationImpl;
-import fr.distrimind.oss.upnp.transport.spi.NetworkAddressFactory;
+import fr.distrimind.oss.upnp.common.transport.Router;
+import fr.distrimind.oss.upnp.common.transport.impl.StreamServerConfigurationImpl;
+import fr.distrimind.oss.upnp.common.transport.spi.NetworkAddressFactory;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
-import fr.distrimind.oss.upnp.model.message.Connection;
-import fr.distrimind.oss.upnp.transport.spi.InitializationException;
-import fr.distrimind.oss.upnp.transport.spi.StreamServer;
+import fr.distrimind.oss.upnp.common.model.message.Connection;
+import fr.distrimind.oss.upnp.common.transport.spi.InitializationException;
+import fr.distrimind.oss.upnp.common.transport.spi.StreamServer;
 
 import java.io.IOException;
 import java.net.Inet6Address;
 import java.net.InetAddress;
 import java.net.InetSocketAddress;
 import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.upnp.Log;
+import fr.distrimind.oss.upnp.common.Log;
 
 /**
  * Implementation based on the built-in SUN JDK 6.0 HTTP Server.

@@ -16,11 +16,11 @@
 
 package fr.distrimind.oss.upnp.android.transport.impl;
 
-import fr.distrimind.oss.upnp.model.message.*;
-import fr.distrimind.oss.upnp.protocol.ProtocolFactory;
-import fr.distrimind.oss.upnp.transport.spi.UpnpStream;
-import fr.distrimind.oss.upnp.util.Exceptions;
-import fr.distrimind.oss.upnp.util.io.IO;
+import fr.distrimind.oss.upnp.common.model.message.*;
+import fr.distrimind.oss.upnp.common.protocol.ProtocolFactory;
+import fr.distrimind.oss.upnp.common.transport.spi.UpnpStream;
+import fr.distrimind.oss.upnp.common.util.Exceptions;
+import fr.distrimind.oss.upnp.common.util.io.IO;
 import jakarta.servlet.AsyncContext;
 import jakarta.servlet.AsyncEvent;
 import jakarta.servlet.AsyncListener;
@@ -36,7 +36,7 @@ import java.util.Enumeration;
 import java.util.List;
 import java.util.Map;
 import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.upnp.Log;
+import fr.distrimind.oss.upnp.common.Log;
 
 /**
  * Implementation based on Servlet 3.0 API.

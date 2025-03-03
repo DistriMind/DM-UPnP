@@ -15,18 +15,18 @@
 package example.controlpoint;
 
 import example.binarylight.BinaryLightSampleData;
-import fr.distrimind.oss.upnp.binding.LocalServiceBinder;
-import fr.distrimind.oss.upnp.binding.annotations.AnnotationLocalServiceBinder;
-import fr.distrimind.oss.upnp.controlpoint.ActionCallback;
-import fr.distrimind.oss.upnp.mock.MockUpnpService;
-import fr.distrimind.oss.upnp.model.DefaultServiceManager;
-import fr.distrimind.oss.upnp.model.action.ActionCancelledException;
-import fr.distrimind.oss.upnp.model.action.ActionInvocation;
-import fr.distrimind.oss.upnp.model.message.UpnpResponse;
-import fr.distrimind.oss.upnp.model.meta.Action;
-import fr.distrimind.oss.upnp.model.meta.LocalDevice;
-import fr.distrimind.oss.upnp.model.meta.LocalService;
-import fr.distrimind.oss.upnp.model.types.UDAServiceId;
+import fr.distrimind.oss.upnp.common.binding.LocalServiceBinder;
+import fr.distrimind.oss.upnp.common.binding.annotations.AnnotationLocalServiceBinder;
+import fr.distrimind.oss.upnp.common.controlpoint.ActionCallback;
+import fr.distrimind.oss.upnp.common.mock.MockUpnpService;
+import fr.distrimind.oss.upnp.common.model.DefaultServiceManager;
+import fr.distrimind.oss.upnp.common.model.action.ActionCancelledException;
+import fr.distrimind.oss.upnp.common.model.action.ActionInvocation;
+import fr.distrimind.oss.upnp.common.model.message.UpnpResponse;
+import fr.distrimind.oss.upnp.common.model.meta.Action;
+import fr.distrimind.oss.upnp.common.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.common.model.meta.LocalService;
+import fr.distrimind.oss.upnp.common.model.types.UDAServiceId;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -86,19 +86,19 @@ import static org.testng.Assert.assertTrue;
  * <tbody>
  * <tr>
  * <td class="nowrap">
- * <code>fr.distrimind.oss.upnp.transport.impl.StreamClientImpl (default)</code>
+ * <code>fr.distrimind.oss.upnp.common.transport.impl.StreamClientImpl (default)</code>
  * </td>
  * <td>NO</td>
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>fr.distrimind.oss.upnp.transport.impl.apache.StreamClientImpl</code>
+ * <code>fr.distrimind.oss.upnp.common.transport.impl.apache.StreamClientImpl</code>
  * </td>
  * <td>YES</td>
  * </tr>
  * <tr>
  * <td class="nowrap">
- * <code>fr.distrimind.oss.upnp.transport.impl.jetty.StreamClientImpl (default on Android)</code>
+ * <code>fr.distrimind.oss.upnp.common.transport.impl.jetty.StreamClientImpl (default on Android)</code>
  * </td>
  * <td>YES</td>
  * </tr>

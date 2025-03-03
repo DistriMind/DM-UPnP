@@ -1,20 +1,20 @@
 package example.binarylight;
 
 import fr.distrimind.oss.flexilogxml.concurrent.ThreadType;
-import fr.distrimind.oss.upnp.controlpoint.ActionCallback;
-import fr.distrimind.oss.upnp.model.action.ActionInvocation;
-import fr.distrimind.oss.upnp.model.message.UpnpResponse;
-import fr.distrimind.oss.upnp.model.message.header.STAllHeader;
-import fr.distrimind.oss.upnp.model.meta.RemoteDevice;
-import fr.distrimind.oss.upnp.model.meta.Service;
-import fr.distrimind.oss.upnp.model.types.InvalidValueException;
-import fr.distrimind.oss.upnp.model.types.ServiceId;
-import fr.distrimind.oss.upnp.model.types.UDAServiceId;
-import fr.distrimind.oss.upnp.registry.DefaultRegistryListener;
-import fr.distrimind.oss.upnp.registry.Registry;
-import fr.distrimind.oss.upnp.registry.RegistryListener;
-import fr.distrimind.oss.upnp.UpnpService;
-import fr.distrimind.oss.upnp.UpnpServiceImpl;
+import fr.distrimind.oss.upnp.common.controlpoint.ActionCallback;
+import fr.distrimind.oss.upnp.common.model.action.ActionInvocation;
+import fr.distrimind.oss.upnp.common.model.message.UpnpResponse;
+import fr.distrimind.oss.upnp.common.model.message.header.STAllHeader;
+import fr.distrimind.oss.upnp.common.model.meta.RemoteDevice;
+import fr.distrimind.oss.upnp.common.model.meta.Service;
+import fr.distrimind.oss.upnp.common.model.types.InvalidValueException;
+import fr.distrimind.oss.upnp.common.model.types.ServiceId;
+import fr.distrimind.oss.upnp.common.model.types.UDAServiceId;
+import fr.distrimind.oss.upnp.common.registry.DefaultRegistryListener;
+import fr.distrimind.oss.upnp.common.registry.Registry;
+import fr.distrimind.oss.upnp.common.registry.RegistryListener;
+import fr.distrimind.oss.upnp.common.UpnpService;
+import fr.distrimind.oss.upnp.common.UpnpServiceImpl;
 
 @SuppressWarnings({"PMD.SystemPrintln", "PMD.DoNotTerminateVM"})
 public class BinaryLightClient implements Runnable {

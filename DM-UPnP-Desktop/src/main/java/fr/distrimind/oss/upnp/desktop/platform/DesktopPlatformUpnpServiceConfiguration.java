@@ -145,9 +145,9 @@
 package fr.distrimind.oss.upnp.desktop.platform;
 
 import fr.distrimind.oss.upnp.desktop.transport.impl.StreamServerImpl;
-import fr.distrimind.oss.upnp.platform.DefaultPlatformUpnpServiceConfiguration;
-import fr.distrimind.oss.upnp.transport.impl.StreamServerConfigurationImpl;
-import fr.distrimind.oss.upnp.transport.spi.StreamServer;
+import fr.distrimind.oss.upnp.common.platform.DefaultPlatformUpnpServiceConfiguration;
+import fr.distrimind.oss.upnp.common.transport.impl.StreamServerConfigurationImpl;
+import fr.distrimind.oss.upnp.common.transport.spi.StreamServer;
 
 /**
  * @author Jason Mahdjoub

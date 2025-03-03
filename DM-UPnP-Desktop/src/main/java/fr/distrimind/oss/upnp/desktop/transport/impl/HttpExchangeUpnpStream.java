@@ -49,16 +49,16 @@
 package fr.distrimind.oss.upnp.desktop.transport.impl;
 
 import com.sun.net.httpserver.HttpExchange;
-import fr.distrimind.oss.upnp.model.message.Connection;
-import fr.distrimind.oss.upnp.model.message.StreamRequestMessage;
-import fr.distrimind.oss.upnp.model.message.StreamResponseMessage;
-import fr.distrimind.oss.upnp.model.message.UpnpHeaders;
-import fr.distrimind.oss.upnp.model.message.UpnpMessage;
-import fr.distrimind.oss.upnp.model.message.UpnpRequest;
-import fr.distrimind.oss.upnp.protocol.ProtocolFactory;
-import fr.distrimind.oss.upnp.transport.spi.UpnpStream;
-import fr.distrimind.oss.upnp.util.Exceptions;
-import fr.distrimind.oss.upnp.util.io.IO;
+import fr.distrimind.oss.upnp.common.model.message.Connection;
+import fr.distrimind.oss.upnp.common.model.message.StreamRequestMessage;
+import fr.distrimind.oss.upnp.common.model.message.StreamResponseMessage;
+import fr.distrimind.oss.upnp.common.model.message.UpnpHeaders;
+import fr.distrimind.oss.upnp.common.model.message.UpnpMessage;
+import fr.distrimind.oss.upnp.common.model.message.UpnpRequest;
+import fr.distrimind.oss.upnp.common.protocol.ProtocolFactory;
+import fr.distrimind.oss.upnp.common.transport.spi.UpnpStream;
+import fr.distrimind.oss.upnp.common.util.Exceptions;
+import fr.distrimind.oss.upnp.common.util.io.IO;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -66,7 +66,7 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.util.Locale;
 import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.upnp.Log;
+import fr.distrimind.oss.upnp.common.Log;
 
 /**
  * Default implementation based on the JDK 6.0 built-in HTTP Server.

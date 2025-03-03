@@ -15,7 +15,7 @@
         </p>
 
         <dl>
-            <dt><code>fr.distrimind.oss.upnp.transport.impl.StreamClientImpl</code> (default)</dt>
+            <dt><code>fr.distrimind.oss.upnp.common.transport.impl.StreamClientImpl</code> (default)</dt>
             <dd>
                 This implementation uses the JDK's <code>HTTPURLConnection</code>, it doesn't require any additional
                 libraries. Note that DM-UPnP has to customize (with an ugly hack, really) the VM's
@@ -87,7 +87,7 @@ public class MyUpnpServiceConfiguration extends DefaultUpnpServiceConfiguration 
     public StreamServer createStreamServer(NetworkAddressFactory networkAddressFactory) {
         return new fr.distrimind.oss.upnp.android.transport.impl.AsyncServletStreamServerImpl(
             new fr.distrimind.oss.upnp.android.transport.impl.AsyncServletStreamServerConfigurationImpl(
-                fr.distrimind.oss.upnp.transport.impl.jetty.JettyServletContainer.INSTANCE,
+                fr.distrimind.oss.upnp.common.transport.impl.jetty.JettyServletContainer.INSTANCE,
                 networkAddressFactory.getStreamListenPort()
             )
         );

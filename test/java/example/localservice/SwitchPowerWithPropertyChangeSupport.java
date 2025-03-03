@@ -1,6 +1,6 @@
 package example.localservice;
 
-import fr.distrimind.oss.upnp.binding.annotations.*;
+import fr.distrimind.oss.upnp.common.binding.annotations.*;
 
 import java.beans.PropertyChangeSupport;
 

@@ -14,18 +14,18 @@
  */
 package example.localservice;
 
-import fr.distrimind.oss.upnp.binding.LocalServiceBinder;
-import fr.distrimind.oss.upnp.binding.annotations.AnnotationLocalServiceBinder;
-import fr.distrimind.oss.upnp.model.DefaultServiceManager;
-import fr.distrimind.oss.upnp.model.action.ActionInvocation;
-import fr.distrimind.oss.upnp.model.meta.ActionArgument;
-import fr.distrimind.oss.upnp.model.meta.DeviceDetails;
-import fr.distrimind.oss.upnp.model.meta.LocalDevice;
-import fr.distrimind.oss.upnp.model.meta.LocalService;
-import fr.distrimind.oss.upnp.model.meta.StateVariable;
-import fr.distrimind.oss.upnp.model.types.Datatype;
-import fr.distrimind.oss.upnp.model.types.DeviceType;
-import fr.distrimind.oss.upnp.test.data.SampleData;
+import fr.distrimind.oss.upnp.common.binding.LocalServiceBinder;
+import fr.distrimind.oss.upnp.common.binding.annotations.AnnotationLocalServiceBinder;
+import fr.distrimind.oss.upnp.common.model.DefaultServiceManager;
+import fr.distrimind.oss.upnp.common.model.action.ActionInvocation;
+import fr.distrimind.oss.upnp.common.model.meta.ActionArgument;
+import fr.distrimind.oss.upnp.common.model.meta.DeviceDetails;
+import fr.distrimind.oss.upnp.common.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.common.model.meta.LocalService;
+import fr.distrimind.oss.upnp.common.model.meta.StateVariable;
+import fr.distrimind.oss.upnp.common.model.types.Datatype;
+import fr.distrimind.oss.upnp.common.model.types.DeviceType;
+import fr.distrimind.oss.upnp.common.test.data.SampleData;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -60,7 +60,7 @@ import static org.testng.Assert.assertNull;
  * the state variable really is a string datatype, it can't infer that
  * from the field type. Then, if an action has this output argument, instead of
  * manually creating the comma-separated string you pick the appropriate converter
- * from the classes in <code>fr.distrimind.oss.upnp.model.types.csv.*</code> and return
+ * from the classes in <code>fr.distrimind.oss.upnp.common.model.types.csv.*</code> and return
  * it from your action method. These are actually <code>java.util.List</code>
  * implementations, so you could use them <em>instead</em> of
  * <code>java.util.List</code> if you don't care about the dependency. Any action

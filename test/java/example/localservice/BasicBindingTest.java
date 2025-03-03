@@ -14,22 +14,22 @@
  */
 package example.localservice;
 
-import fr.distrimind.oss.upnp.binding.LocalServiceBinder;
-import fr.distrimind.oss.upnp.binding.annotations.AnnotationLocalServiceBinder;
-import fr.distrimind.oss.upnp.model.DefaultServiceManager;
-import fr.distrimind.oss.upnp.model.action.ActionInvocation;
-import fr.distrimind.oss.upnp.model.meta.ActionArgument;
-import fr.distrimind.oss.upnp.model.meta.DeviceDetails;
-import fr.distrimind.oss.upnp.model.meta.LocalDevice;
-import fr.distrimind.oss.upnp.model.meta.LocalService;
-import fr.distrimind.oss.upnp.model.types.Datatype;
-import fr.distrimind.oss.upnp.model.types.UDADeviceType;
-import fr.distrimind.oss.upnp.model.types.UDAServiceId;
-import fr.distrimind.oss.upnp.model.types.UDAServiceType;
-import fr.distrimind.oss.upnp.test.data.SampleData;
-import fr.distrimind.oss.upnp.test.data.SampleServiceOne;
-import fr.distrimind.oss.upnp.test.gena.OutgoingSubscriptionLifecycleTest;
-import fr.distrimind.oss.upnp.test.local.LocalActionInvocationEnumTest;
+import fr.distrimind.oss.upnp.common.binding.LocalServiceBinder;
+import fr.distrimind.oss.upnp.common.binding.annotations.AnnotationLocalServiceBinder;
+import fr.distrimind.oss.upnp.common.model.DefaultServiceManager;
+import fr.distrimind.oss.upnp.common.model.action.ActionInvocation;
+import fr.distrimind.oss.upnp.common.model.meta.ActionArgument;
+import fr.distrimind.oss.upnp.common.model.meta.DeviceDetails;
+import fr.distrimind.oss.upnp.common.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.common.model.meta.LocalService;
+import fr.distrimind.oss.upnp.common.model.types.Datatype;
+import fr.distrimind.oss.upnp.common.model.types.UDADeviceType;
+import fr.distrimind.oss.upnp.common.model.types.UDAServiceId;
+import fr.distrimind.oss.upnp.common.model.types.UDAServiceType;
+import fr.distrimind.oss.upnp.common.test.data.SampleData;
+import fr.distrimind.oss.upnp.common.test.data.SampleServiceOne;
+import fr.distrimind.oss.upnp.common.test.gena.OutgoingSubscriptionLifecycleTest;
+import fr.distrimind.oss.upnp.common.test.local.LocalActionInvocationEnumTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

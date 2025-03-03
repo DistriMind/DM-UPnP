@@ -3,65 +3,65 @@
 <suite thread-count="24" name="Default Suite">
   <test thread-count="24" name="testControl">
     <classes>
-      <class name="fr.distrimind.oss.upnp.test.control.ActionInvokeIncomingTest"/>
-      <class name="fr.distrimind.oss.upnp.test.control.ActionInvokeOutgoingTest"/>
-      <class name="fr.distrimind.oss.upnp.test.control.ActionXMLProcessingTest"/>
-      <class name="fr.distrimind.oss.upnp.test.control.InvalidActionXMLProcessingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.control.ActionInvokeIncomingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.control.ActionInvokeOutgoingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.control.ActionXMLProcessingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.control.InvalidActionXMLProcessingTest"/>
     </classes>
   </test> <!-- testControl -->
   <test thread-count="24" name="testGena">
     <classes>
-      <class name="fr.distrimind.oss.upnp.test.gena.EventXMLProcessingTest"/>
-      <class name="fr.distrimind.oss.upnp.test.gena.IncomingSubscriptionLifecycleTest"/>
-      <class name="fr.distrimind.oss.upnp.test.control.InvalidActionXMLProcessingTest"/>
-      <class name="fr.distrimind.oss.upnp.test.gena.OutgoingSubscriptionFailureTest"/>
-      <class name="fr.distrimind.oss.upnp.test.gena.OutgoingSubscriptionLifecycleTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.gena.EventXMLProcessingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.gena.IncomingSubscriptionLifecycleTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.control.InvalidActionXMLProcessingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.gena.OutgoingSubscriptionFailureTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.gena.OutgoingSubscriptionLifecycleTest"/>
     </classes>
   </test> <!-- testGena -->
   <test thread-count="24" name="testLocal">
     <classes>
-      <class name="fr.distrimind.oss.upnp.test.local.LocalActionInvocationCSVTest"/>
-      <class name="fr.distrimind.oss.upnp.test.local.LocalActionInvocationDatatypesTest"/>
-      <class name="fr.distrimind.oss.upnp.test.local.LocalActionInvocationEnumTest"/>
-      <class name="fr.distrimind.oss.upnp.test.local.LocalActionInvocationNullTest"/>
-      <class name="fr.distrimind.oss.upnp.test.local.LocalDeviceBindingAdvertisementTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.local.LocalActionInvocationCSVTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.local.LocalActionInvocationDatatypesTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.local.LocalActionInvocationEnumTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.local.LocalActionInvocationNullTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.local.LocalDeviceBindingAdvertisementTest"/>
     </classes>
   </test> <!-- testLocal -->
   <test thread-count="24" name="testModel">
     <classes>
-      <class name="fr.distrimind.oss.upnp.test.model.profile.DeviceDetailsProviderTest"/>
-      <class name="fr.distrimind.oss.upnp.test.model.DatagramParsingTest"/>
-      <class name="fr.distrimind.oss.upnp.test.model.DatatypesTest"/>
-      <class name="fr.distrimind.oss.upnp.test.model.DeviceGraphTest"/>
-      <class name="fr.distrimind.oss.upnp.test.model.HeaderParsingTest"/>
-      <class name="fr.distrimind.oss.upnp.test.model.IconTest"/>
-      <class name="fr.distrimind.oss.upnp.test.model.IncompatibilityTest"/>
-      <class name="fr.distrimind.oss.upnp.test.model.LocalServiceBindingDatatypesTest"/>
-      <class name="fr.distrimind.oss.upnp.test.model.UtilTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.model.profile.DeviceDetailsProviderTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.model.DatagramParsingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.model.DatatypesTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.model.DeviceGraphTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.model.HeaderParsingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.model.IconTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.model.IncompatibilityTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.model.LocalServiceBindingDatatypesTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.model.UtilTest"/>
     </classes>
   </test> <!-- testModel -->
   <test thread-count="24" name="testProtocol">
     <classes>
-      <class name="fr.distrimind.oss.upnp.test.protocol.ProtocolFactoryTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.protocol.ProtocolFactoryTest"/>
     </classes>
   </test> <!-- testProtocol -->
   <test thread-count="24" name="testResources">
     <classes>
-      <class name="fr.distrimind.oss.upnp.test.resources.DeviceDescriptorRetrievalTest"/>
-      <class name="fr.distrimind.oss.upnp.test.resources.InvalidUDA10DeviceDescriptorParsingTest"/>
-      <class name="fr.distrimind.oss.upnp.test.resources.ServiceDescriptorRetrievalTest"/>
-      <class name="fr.distrimind.oss.upnp.test.resources.UDA10DeviceDescriptorParsingTest"/>
-      <class name="fr.distrimind.oss.upnp.test.resources.UDA10ServiceDescriptorParsingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.resources.DeviceDescriptorRetrievalTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.resources.InvalidUDA10DeviceDescriptorParsingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.resources.ServiceDescriptorRetrievalTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.resources.UDA10DeviceDescriptorParsingTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.resources.UDA10ServiceDescriptorParsingTest"/>
     </classes>
   </test> <!-- testResources -->
   <test thread-count="24" name="testSSDP">
     <classes>
-      <class name="fr.distrimind.oss.upnp.test.ssdp.AdvertisementTest"/>
-      <class name="fr.distrimind.oss.upnp.test.ssdp.NotifyAliveConcurrentTest"/>
-      <class name="fr.distrimind.oss.upnp.test.ssdp.NotifyTest"/>
-      <class name="fr.distrimind.oss.upnp.test.ssdp.RegistryExpirationTest"/>
-      <class name="fr.distrimind.oss.upnp.test.ssdp.SearchReceivedTest"/>
-      <class name="fr.distrimind.oss.upnp.test.ssdp.SearchResponseTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.ssdp.AdvertisementTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.ssdp.NotifyAliveConcurrentTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.ssdp.NotifyTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.ssdp.RegistryExpirationTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.ssdp.SearchReceivedTest"/>
+      <class name="fr.distrimind.oss.upnp.common.test.ssdp.SearchResponseTest"/>
     </classes>
   </test> <!-- testSSDP -->
   <test thread-count="24" name="binary_light">

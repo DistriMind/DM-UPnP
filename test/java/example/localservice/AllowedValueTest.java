@@ -15,15 +15,15 @@
 
 package example.localservice;
 
-import fr.distrimind.oss.upnp.binding.LocalServiceBinder;
-import fr.distrimind.oss.upnp.binding.annotations.AnnotationLocalServiceBinder;
-import fr.distrimind.oss.upnp.model.DefaultServiceManager;
-import fr.distrimind.oss.upnp.model.meta.DeviceDetails;
-import fr.distrimind.oss.upnp.model.meta.LocalDevice;
-import fr.distrimind.oss.upnp.model.meta.LocalService;
-import fr.distrimind.oss.upnp.model.types.Datatype;
-import fr.distrimind.oss.upnp.model.types.DeviceType;
-import fr.distrimind.oss.upnp.test.data.SampleData;
+import fr.distrimind.oss.upnp.common.binding.LocalServiceBinder;
+import fr.distrimind.oss.upnp.common.binding.annotations.AnnotationLocalServiceBinder;
+import fr.distrimind.oss.upnp.common.model.DefaultServiceManager;
+import fr.distrimind.oss.upnp.common.model.meta.DeviceDetails;
+import fr.distrimind.oss.upnp.common.model.meta.LocalDevice;
+import fr.distrimind.oss.upnp.common.model.meta.LocalService;
+import fr.distrimind.oss.upnp.common.model.types.Datatype;
+import fr.distrimind.oss.upnp.common.model.types.DeviceType;
+import fr.distrimind.oss.upnp.common.test.data.SampleData;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

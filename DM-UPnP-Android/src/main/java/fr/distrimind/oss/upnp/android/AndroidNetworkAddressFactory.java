@@ -16,8 +16,8 @@
 
 package fr.distrimind.oss.upnp.android;
 
-import fr.distrimind.oss.upnp.transport.impl.NetworkAddressFactoryImpl;
-import fr.distrimind.oss.upnp.transport.spi.InitializationException;
+import fr.distrimind.oss.upnp.common.transport.impl.NetworkAddressFactoryImpl;
+import fr.distrimind.oss.upnp.common.transport.spi.InitializationException;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InaccessibleObjectException;
@@ -27,7 +27,7 @@ import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.util.Collections;
 import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.upnp.Log;
+import fr.distrimind.oss.upnp.common.Log;
 
 /**
  * This factory tries to work around and patch some Android bugs.

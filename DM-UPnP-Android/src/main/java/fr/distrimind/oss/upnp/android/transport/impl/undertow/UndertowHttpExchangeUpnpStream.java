@@ -33,12 +33,12 @@
 package fr.distrimind.oss.upnp.android.transport.impl.undertow;
 
 import fr.distrimind.oss.flexilogxml.log.DMLogger;
-import fr.distrimind.oss.upnp.Log;
-import fr.distrimind.oss.upnp.model.message.*;
-import fr.distrimind.oss.upnp.protocol.ProtocolFactory;
-import fr.distrimind.oss.upnp.transport.spi.UpnpStream;
-import fr.distrimind.oss.upnp.util.Exceptions;
-import fr.distrimind.oss.upnp.util.io.IO;
+import fr.distrimind.oss.upnp.common.Log;
+import fr.distrimind.oss.upnp.common.model.message.*;
+import fr.distrimind.oss.upnp.common.protocol.ProtocolFactory;
+import fr.distrimind.oss.upnp.common.transport.spi.UpnpStream;
+import fr.distrimind.oss.upnp.common.util.Exceptions;
+import fr.distrimind.oss.upnp.common.util.io.IO;
 import io.undertow.server.BlockingHttpExchange;
 import io.undertow.server.HttpServerExchange;
 import io.undertow.util.HeaderMap;

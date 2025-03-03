@@ -48,7 +48,7 @@
 
 package fr.distrimind.oss.upnp.android.transport;
 
-import fr.distrimind.oss.upnp.platform.Platform;
+import fr.distrimind.oss.upnp.common.platform.Platform;
 
 import java.io.IOException;
 

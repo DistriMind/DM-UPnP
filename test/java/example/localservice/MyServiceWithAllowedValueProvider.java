@@ -15,14 +15,14 @@
 
 package example.localservice;
 
-import fr.distrimind.oss.upnp.binding.AllowedValueProvider;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpAction;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpInputArgument;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpOutputArgument;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpService;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpServiceId;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpServiceType;
-import fr.distrimind.oss.upnp.binding.annotations.UpnpStateVariable;
+import fr.distrimind.oss.upnp.common.binding.AllowedValueProvider;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpAction;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpInputArgument;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpOutputArgument;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpService;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpServiceId;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpServiceType;
+import fr.distrimind.oss.upnp.common.binding.annotations.UpnpStateVariable;
 
 import java.util.Collection;
 import java.util.List;

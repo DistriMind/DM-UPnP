@@ -56,10 +56,10 @@ import fr.distrimind.oss.flexilogxml.log.Level;
 import java.io.File;
 import java.io.IOException;
 
-public class AllTests extends fr.distrimind.oss.upnp.test.AllTests {
+public class AllTests extends fr.distrimind.oss.upnp.common.test.AllTests {
 	public static Tests getTests()
 	{
-		return fr.distrimind.oss.upnp.test.AllTests.getTests();
+		return fr.distrimind.oss.upnp.common.test.AllTests.getTests();
 	}
 	public static void main(String[] args) throws IOException {
 		Tests t=getTests();
