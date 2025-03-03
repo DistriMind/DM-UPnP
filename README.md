@@ -25,7 +25,7 @@ Adapt into your build.gradle file, the next code :
 		    ...
 		    implementation(group:'fr.distrimind.oss.upnp.desktop', name: 'DM-UPnP-Desktop', version: '1.5.1-STABLE')
 		    //optional :
-		    implementation(group:'org.slf4j', name: 'slf4j-jdk14', version: '2.0.16')
+		    implementation(group:'org.slf4j', name: 'slf4j-jdk14', version: '2.0.17')
 		    ...
 	    }
 	    ...
@@ -75,7 +75,7 @@ Adapt into your pom.xml file, the next code :
                 <dependency>
                     <groupId>org.slf4j</groupId>
                     <artifactId>slf4j-jdk14</artifactId>
-                    <version>2.0.16</version>
+                    <version>2.0.17</version>
                 </dependency>   
                 ...
             </dependencies>

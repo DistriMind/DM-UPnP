@@ -2,12 +2,12 @@
 beanShellVersion='2.0b6'
 jsoupVersion='1.18.3'
 jakartaCdiAPIVersion='4.1.0'
-testngVersion='7.10.2'
+testngVersion='7.11.0'
 junitVersion = "4.13.2"
 androidStubVersion = "4.3.0.0"
-dmFlexiLogXML='2.0.1-STABLE'
+dmFlexiLogXML='2.1.2-STABLE'
 undertow='2.3.18.Final'
-logback='1.5.16'
+logback='1.5.17'
 
 [libraries]
 jsoup = { group = "org.jsoup", name = "jsoup", version.ref = "jsoupVersion" }
@@ -16,7 +16,7 @@ testng = { group = "org.testng", name = "testng", version.ref = "testngVersion" 
 bsh = { group = "org.apache-extras.beanshell", name = "bsh", version.ref = "beanShellVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junitVersion" }
 androidStub = { group = "stub.android", name = "AndroidStub", version.ref = "androidStubVersion" }
-dm-flexi-logxml-common = { group = "fr.distrimind.oss.flexilogxml", name = "DM-FlexiLogXML-Common", version.ref = "dmFlexiLogXML" }
+dm-flexi-logxml-common = { group = "fr.distrimind.oss.flexilogxml.common", name = "DM-FlexiLogXML-Common", version.ref = "dmFlexiLogXML" }
 dm-flexi-logxml-desktop = { group = "fr.distrimind.oss.flexilogxml.desktop", name = "DM-FlexiLogXML-Desktop", version.ref = "dmFlexiLogXML" }
 dm-flexi-logxml-android = { group = "fr.distrimind.oss.flexilogxml.android", name = "DM-FlexiLogXML-Android", version.ref = "dmFlexiLogXML" }
 logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback" }
