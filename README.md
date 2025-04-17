@@ -23,7 +23,7 @@ Adapt into your build.gradle file, the next code :
 	    ...
 	    dependencies {
 		    ...
-		    implementation(group:'fr.distrimind.oss.upnp.desktop', name: 'DM-UPnP-Desktop', version: '1.5.2-STABLE')
+		    implementation(group:'fr.distrimind.oss.upnp.desktop', name: 'DM-UPnP-Desktop', version: '1.5.3-STABLE')
 		    //optional :
 		    implementation(group:'org.slf4j', name: 'slf4j-jdk14', version: '2.0.17')
 		    ...
@@ -37,7 +37,7 @@ Adapt into your build.gradle file, the next code :
 	    ...
 	    dependencies {
 		    ...
-		    implementation(group:'fr.distrimind.oss.upnp.android', name: 'DM-UPnP-Android', version: '1.5.2-STABLE')
+		    implementation(group:'fr.distrimind.oss.upnp.android', name: 'DM-UPnP-Android', version: '1.5.3-STABLE')
 		    ...
 	    }
 	    ...
@@ -69,7 +69,7 @@ Adapt into your pom.xml file, the next code :
                 <dependency>
                     <groupId>fr.distrimind.oss.upnp.desktop</groupId>
                     <artifactId>DM-UPnP-Desktop</artifactId>
-                    <version>1.5.2-STABLE</version>
+                    <version>1.5.3-STABLE</version>
                 </dependency>
                 <-- optional -->
                 <dependency>
@@ -94,7 +94,7 @@ Adapt into your pom.xml file, the next code :
                 <dependency>
                     <groupId>fr.distrimind.oss.upnp.android</groupId>
                     <artifactId>DM-UPnP-Android</artifactId>
-                    <version>1.5.2-STABLE</version>
+                    <version>1.5.3-STABLE</version>
                 </dependency>
                 ...
             </dependencies>
