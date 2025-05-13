@@ -51,6 +51,7 @@ package fr.distrimind.oss.upnp.common.support.shared;
 /**
  * @author Christian Bauer
  */
+@FunctionalInterface
 public interface ShutdownHandler {
 
     void shutdown();

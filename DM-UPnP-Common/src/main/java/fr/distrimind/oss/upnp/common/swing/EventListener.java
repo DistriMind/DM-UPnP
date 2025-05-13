@@ -47,6 +47,7 @@
  * @author Christian Bauer
  * @param <E>
  */
+@FunctionalInterface
 public interface EventListener<E extends Event<?>> {
 
     void handleEvent(E event);

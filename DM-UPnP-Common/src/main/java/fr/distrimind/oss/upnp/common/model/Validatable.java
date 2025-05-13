@@ -55,6 +55,7 @@ import java.util.List;
  *
  * @author Christian Bauer
  */
+@FunctionalInterface
 public interface Validatable {
 
     /**

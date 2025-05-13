@@ -70,6 +70,7 @@ import fr.distrimind.oss.upnp.common.model.meta.LocalDevice;
  * @author Mario Franco
  * @author Christian Bauer
  */
+@FunctionalInterface
 public interface DeviceDetailsProvider {
     DeviceDetails provide(RemoteClientInfo info);
 }

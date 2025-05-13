@@ -109,6 +109,7 @@ public class IO {
 			}
 	}
 
+	@FunctionalInterface
 	public interface FileFinder {
 		void found(File file);
 	}

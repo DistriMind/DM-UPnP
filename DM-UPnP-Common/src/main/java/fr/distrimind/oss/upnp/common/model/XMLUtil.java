@@ -376,6 +376,7 @@ public class XMLUtil {
             return completers.add(xmlCompleter);
         }
     }
+    @FunctionalInterface
     public interface XMLCompleter
     {
         void write(IXmlWriter xmlWriter) throws XMLStreamException;

@@ -57,6 +57,7 @@ import javax.swing.tree.DefaultMutableTreeNode;
 /**
  * @author Christian Bauer
  */
+@FunctionalInterface
 public interface ContentBrowseActionCallbackCreator {
 
     ActionCallback createContentBrowseActionCallback(Service<?, ?, ?> service,

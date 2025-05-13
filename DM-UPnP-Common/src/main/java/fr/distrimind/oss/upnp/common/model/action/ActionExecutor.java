@@ -55,6 +55,7 @@ import fr.distrimind.oss.upnp.common.model.meta.LocalService;
  *
  * @author Christian Bauer
  */
+@FunctionalInterface
 public interface ActionExecutor {
 
     <T> void execute(final ActionInvocation<LocalService<T>> actionInvocation);

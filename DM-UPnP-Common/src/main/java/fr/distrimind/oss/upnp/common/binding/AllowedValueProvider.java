@@ -53,6 +53,7 @@ import java.util.Collection;
 /**
  * @author Christian Bauer
  */
+@FunctionalInterface
 public interface AllowedValueProvider {
 
     Collection<String> getValues();

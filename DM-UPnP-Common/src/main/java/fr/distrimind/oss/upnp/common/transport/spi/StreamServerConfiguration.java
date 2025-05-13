@@ -53,6 +53,7 @@ package fr.distrimind.oss.upnp.common.transport.spi;
  *
  * @author Christian Bauer
  */
+@FunctionalInterface
 public interface StreamServerConfiguration {
 
     /**

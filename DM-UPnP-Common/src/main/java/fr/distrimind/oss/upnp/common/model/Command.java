@@ -53,6 +53,7 @@ package fr.distrimind.oss.upnp.common.model;
  *
  * @author Christian Bauer
  */
+@FunctionalInterface
 public interface Command<T> {
 
     void execute(ServiceManager<T> manager) throws Exception;
