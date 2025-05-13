@@ -1,10 +1,10 @@
 [versions]
-jsoupVersion='1.19.1'
+jsoupVersion='1.20.1'
 jakartaCdiAPIVersion='4.1.0'
 testngVersion='7.11.0'
 junitVersion = "4.13.2"
 androidStubVersion = "4.3.0.0"
-dmFlexiLogXML='2.2.0-STABLE'
+dmFlexiLogXML='2.2.4-STABLE'
 undertow='2.3.18.Final'
 logback='1.5.18'
 
