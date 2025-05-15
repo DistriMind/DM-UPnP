@@ -4,7 +4,7 @@ jakartaCdiAPIVersion='4.1.0'
 testngVersion='7.11.0'
 junitVersion = "4.13.2"
 androidStubVersion = "4.3.0.0"
-dmFlexiLogXML='2.2.4-STABLE'
+dmFlexiLogXML='2.2.5-STABLE'
 undertow='2.3.18.Final'
 logback='1.5.18'
 

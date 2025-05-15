@@ -36,9 +36,9 @@ android {
         androidTest.resources.srcDirs += '../../DM-UPnP-Android/src/test/resources'
     }
     packagingOptions {
-        exclude 'META-INF/LICENSE.md'
-        exclude 'META-INF/NOTICE.md'
-        exclude 'META-INF/INDEX.LIST'
+        resources {
+            excludes += ['META-INF/LICENSE.md', 'META-INF/NOTICE.md', 'META-INF/INDEX.LIST']
+        }
     }
 }
 

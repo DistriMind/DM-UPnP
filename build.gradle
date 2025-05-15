@@ -27,7 +27,7 @@ if (propFile.canRead())
 }
 
 
-version='1.5.4-STABLE'
+version='1.5.5-STABLE'
 group='fr.distrimind.oss.upnp'
 
 

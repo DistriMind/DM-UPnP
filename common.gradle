@@ -1,21 +1,21 @@
-apply plugin: "java-library"
-def javaVersion=JavaVersion.VERSION_11
-java {
-
-    sourceCompatibility = javaVersion
-    targetCompatibility = javaVersion
-    compileJava.options.compilerArgs.addAll(['--release', sourceCompatibility] as Collection<? extends String>)
+apply plugin: 'java-library'
+javadoc {
+    options.quiet()
+    options.encoding = 'UTF-8'
 }
-javadoc.options.addStringOption("html5", "-quiet")
-gradle.projectsEvaluated {
-    tasks.withType(JavaCompile).tap {
-        configureEach {
-            options.compilerArgs << "-Xlint:unchecked"
-            options.deprecation = true
-        }
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+        vendor = JvmVendorSpec.ADOPTIUM
     }
 }
+tasks.withType(JavaCompile).configureEach { JavaCompile task ->
+    options.release = 11
+    options.compilerArgs.add("-Xlint:unchecked")
+    options.deprecation = true
+}
 
-javadoc {
-    options.addBooleanOption('html5', true)
+tasks.withType(AbstractArchiveTask).configureEach { AbstractArchiveTask task ->
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
 }
